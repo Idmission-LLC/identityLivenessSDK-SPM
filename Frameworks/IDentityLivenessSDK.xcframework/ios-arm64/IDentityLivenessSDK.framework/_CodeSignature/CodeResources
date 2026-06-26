@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dDaMof4UmeyjQbJirlGXTG+KHaA=
+		4PRqOgrTh/TXd59XZ1zAJCWyTJ8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -158,23 +158,23 @@
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rk2c66nZEgXgrPRc+vgUfuQIfmE=
+		hbMJ+Yc8IjSPoc+6pD6RjqD3T/Q=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5187a+uSHlbK8p8eBj5rh9d9BJw=
+		GYntcjddh3wleP/MbrZb7WKdclo=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		LNmWjpn5LYznfVqPqVv7zuKiQ9I=
+		HxNQqn4U3bbHXoZI5HxFXF6UnJk=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5187a+uSHlbK8p8eBj5rh9d9BJw=
+		GYntcjddh3wleP/MbrZb7WKdclo=
 		</data>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A4mlLlIH7SQGBJ9Ff0H16eR0U28=
+		8w5kNy9w+ML7mll81mAPegpXqBQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -450,35 +450,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gGzUEFkzTvyJTa1m8+/JnHeXII0k/wK5aCu3jra15bo=
+			FlG0n8JZ4Eon0tG9/2DvgQIYDFzfyvCL/z8SyGTeJ/I=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NRAt7BnGTFIZxe7s1Hx/+lCzOzwKNC9Ap+venOZYHM=
+			UtqUr/jpnoo9knl5extAPpsUTroUY1WHhn2XLGsH0WI=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRnrbnqqhCA69VCi49vwuF9tbOH7/2Gyeb5pVG6gTyM=
+			GXlOe2Egqr51gMM3Z0ffwr6BPt48EbzueCyMwEWXP1U=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NRAt7BnGTFIZxe7s1Hx/+lCzOzwKNC9Ap+venOZYHM=
+			UtqUr/jpnoo9knl5extAPpsUTroUY1WHhn2XLGsH0WI=
 			</data>
 		</dict>
 		<key>Modules/IDentityLivenessSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sa/h9SyKUuJerBiuvSzGYQt7vGfrVu8o0E1zQrho2rU=
+			JkQDsKKjpzivE1OBRbp+vCldTNTzxLOxy+PCsVumex4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

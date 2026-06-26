@@ -4,25 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		2s1bdyS8KvnNF+sM6qr/xzzNkYk=
+		usvhhq5deoDTAOqr/eAp9CHiC4k=
 		</data>
-		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		K9B3472DuKRu3EqPuC4E/OxoZtY=
+		dHyNN4MP8+W96Y2pGyibkXm26OI=
 		</data>
-		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		1Fwl7VSEk3LkBI8Xsx2mOzXhdAY=
+		6+C7vtojqMFs2oSavDBiChX67JM=
 		</data>
-		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		ghsUim9O/Ml+/fpZ6K6uECR/bxY=
+		JcsLfyb7yQEoo6+WroTeTNjXV3Q=
 		</data>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		yDORMrYoxjLHgbLVKHIRF0EkSRI=
+		6WMnbB/sD0C6MpRZDAG4M6iB7N4=
 		</data>
 		<key>Headers/IDentityLiteModels.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oWfRgqdSqrnYtvVFJmhIyisxMwI=
+		vQVEOdHBz1UNmialSQ8ft2iUcQg=
 		</data>
 		<key>Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -52,46 +52,46 @@
 		<data>
 		71/rMpJsJhv/y59V9rhBivLiQdk=
 		</data>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<data>
-		o4W19O+jP17zU23kTqQlo5Vtsy0=
+		WqZKYXWn26bAKfJJrimZwb+Loto=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3WdvuF58O88AiWvDd4pLu6gga3TB83gmYAfmWJn3ic=
+			qS2xaFPzg/6OwCYiTpRO/hInn2KfugKV+mmHZ+/MuT8=
 			</data>
 		</dict>
-		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YCFeY2SqoW0ytlkaOZj6iEFeg/m1AiOhNvfGCd6HO+c=
+			QU02n8+NessYkeJIDRXMBOVi4l2Gg+ywzTU7i4F7BOQ=
 			</data>
 		</dict>
-		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pPtWW+EgOzkD5l5G2w+G2W2LNe9CCELA4IpGR+Ww0XE=
+			JacTWjJ/jikwOquuAhP1dsqWT4uK043nFcwvQ4B7+zk=
 			</data>
 		</dict>
-		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FaceMaskTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HoHt4uL9C7ApSfk9KZPBwHlHk9wUgF27eJdGGRGyaU8=
+			L12oomNX/HjdYGbOyJWLKdNUie11akwinBA0y47PVng=
 			</data>
 		</dict>
-		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>FocusFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l97lWeGtzU7QiXneB+ahkRhGwv8GiklBgdFkAaofCeI=
+			QosudDVO6/Dq2CI0O+Z+RFxdssHaPwLmQgY4P3UM1qQ=
 			</data>
 		</dict>
 		<key>Headers/IDentityLiteModels.h</key>
@@ -136,11 +136,11 @@
 			9yQCZs970pJstqyrGEMa89Qg536G5dqd4s4KR8rZQHM=
 			</data>
 		</dict>
-		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
+		<key>PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qBPorDRX8+fuCpMqOHChP1Bbb+LP3KkMc4nknbFl4M=
+			Kxng78Ao19lDIYXXE1ExvGt86wPXb8AAQ4RjRqZMLpw=
 			</data>
 		</dict>
 	</dict>
