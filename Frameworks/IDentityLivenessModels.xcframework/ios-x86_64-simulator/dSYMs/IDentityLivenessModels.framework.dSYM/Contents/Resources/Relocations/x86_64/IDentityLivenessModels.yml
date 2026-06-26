@@ -1,0 +1,16 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-liveness/Build/Products/Release-iphonesimulator/IDentityLivenessModels.framework/IDentityLivenessModels'
+relocations:
+  - { offset: 0x341C5, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionString, symObjAddr: 0x0, symBinAddr: 0x2B60, symSize: 0x0 }
+  - { offset: 0x341F9, size: 0x8, addend: 0x0, symName: _IDentityLivenessModelsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x2BA0, symSize: 0x0 }
+  - { offset: 0x34291, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC22IDentityLivenessModelsE6modelsABvgZ', symObjAddr: 0x0, symBinAddr: 0x1B00, symSize: 0x50 }
+  - { offset: 0x342D1, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCMa', symObjAddr: 0x50, symBinAddr: 0x1B50, symSize: 0x20 }
+  - { offset: 0x34381, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCMa', symObjAddr: 0x170, symBinAddr: 0x1C70, symSize: 0x14 }
+  - { offset: 0x343A2, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfd', symObjAddr: 0x70, symBinAddr: 0x1B70, symSize: 0x10 }
+  - { offset: 0x343CD, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels82IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt0zCfD', symObjAddr: 0x80, symBinAddr: 0x1B80, symSize: 0x20 }
+  - { offset: 0x343F8, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCACycfC', symObjAddr: 0xA0, symBinAddr: 0x1BA0, symSize: 0x20 }
+  - { offset: 0x3440C, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCACycfc', symObjAddr: 0xC0, symBinAddr: 0x1BC0, symSize: 0x30 }
+  - { offset: 0x34444, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCACycfcTo', symObjAddr: 0xF0, symBinAddr: 0x1BF0, symSize: 0x30 }
+  - { offset: 0x34479, size: 0x8, addend: 0x0, symName: '_$s22IDentityLivenessModels0C10EntryPointCfD', symObjAddr: 0x120, symBinAddr: 0x1C20, symSize: 0x30 }
+...

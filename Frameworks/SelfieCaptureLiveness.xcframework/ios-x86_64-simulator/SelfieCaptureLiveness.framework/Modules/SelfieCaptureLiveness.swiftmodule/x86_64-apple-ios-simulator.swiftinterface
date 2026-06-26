@@ -1,0 +1,134 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SelfieCaptureLiveness
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AudioToolbox
+import DeveloperToolsSupport
+import Foundation
+import IDentityLivenessSDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct TrainingModelDetails : Swift.Codable {
+  public var keyInfo: SelfieCaptureLiveness.KeyInfo?
+  public var trainingModel: SelfieCaptureLiveness.TrainingModelResponse?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrainingModelDownloadRq : Swift.Encodable {
+  public var uniqueKeyId: Swift.String
+  public var modelTypes: [SelfieCaptureLiveness.TrainingModelDownloadDetails]
+  public init(uniqueKeyId: Swift.String, modelTypes: [SelfieCaptureLiveness.TrainingModelDownloadDetails])
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct AppConfig : Swift.Codable {
+  public var FACE_TRAINING_DATA_AUTH_LOGIN: Swift.String?
+  public var FACE_TRAINING_DATA_AUTH_PWD: Swift.String?
+  public var ID_TRAINING_DATA_AUTH_LOGIN: Swift.String?
+  public var ID_TRAINING_DATA_AUTH_PWD: Swift.String?
+  public var PUBLIC_KEY: Swift.String?
+  public var SUBSCRIBED_SDK_SERVICES: Swift.String?
+  public var TrainingModelName: Swift.String?
+  public var TrainingModelNameJson: Swift.String?
+  public var UNIQUE_KEY_ID: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InitializeRequest : Swift.Encodable {
+  public var applicationCode: Swift.String
+  public init(applicationCode: Swift.String = "SDK")
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct KeyInfo : Swift.Codable {
+  public var previousUniqueKeyId: Swift.String?
+  public var previousPublicKeyId: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct LiveFaceCheckResult {
+  public var selfie: IDentityLivenessSDK.Selfie
+  public var isFakeFace: Swift.Bool
+  public func finalSubmit(completion: @escaping IDentityLivenessSDK.LiveFaceCheckAPICompletion)
+}
+public struct CustomerEnrollBiometricsResult {
+  public var selfie: IDentityLivenessSDK.Selfie
+  public func finalSubmit(completion: @escaping IDentityLivenessSDK.CustomerEnrollBiometricsAPICompletion)
+}
+public struct CustomerVerificationResult {
+  public var selfie: IDentityLivenessSDK.Selfie
+  public func finalSubmit(completion: @escaping IDentityLivenessSDK.CustomerVerificationAPICompletion)
+}
+public struct CustomerIdentifyResult {
+  public var selfie: IDentityLivenessSDK.Selfie
+  public func finalSubmit(completion: @escaping IDentityLivenessSDK.CustomerIdentifyAPICompletion)
+}
+public typealias LiveFaceCheckCompletion = (_ result: Swift.Result<SelfieCaptureLiveness.LiveFaceCheckResult, any Swift.Error>) -> Swift.Void
+public typealias CustomerEnrollBiometricsCompletion = (_ result: Swift.Result<SelfieCaptureLiveness.CustomerEnrollBiometricsResult, any Swift.Error>) -> Swift.Void
+public typealias CustomerVerificationCompletion = (_ result: Swift.Result<SelfieCaptureLiveness.CustomerVerificationResult, any Swift.Error>) -> Swift.Void
+public typealias CustomerIdentifyCompletion = (_ result: Swift.Result<SelfieCaptureLiveness.CustomerIdentifyResult, any Swift.Error>) -> Swift.Void
+extension IDentityLivenessSDK.IDentitySDK {
+  public static var customerLiveCheckRequest: IDentityLivenessSDK.CustomerLiveCheckRequest?
+  public class func liveFaceCheck(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, options: IDentityLivenessSDK.AdditionalCustomerLiveCheckData? = nil, completion: @escaping SelfieCaptureLiveness.LiveFaceCheckCompletion)
+  public static var customerEnrollBiometricsRequest: IDentityLivenessSDK.CustomerEnrollBiometricsRequest?
+  public class func customerEnrollBiometrics(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLivenessSDK.PersonalCustomerEnrollBiometricsRequestData, options: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData, completion: @escaping SelfieCaptureLiveness.CustomerEnrollBiometricsCompletion)
+  public static var customerVerifyRequest: IDentityLivenessSDK.CustomerVerifyRequest?
+  public class func customerVerification(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLivenessSDK.PersonalCustomerVerifyData, options: IDentityLivenessSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLiveness.CustomerVerificationCompletion)
+  public static var customerIdentifyRequest: IDentityLivenessSDK.CustomerIdentifyRequest?
+  public class func identifyCustomer(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, options: IDentityLivenessSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLiveness.CustomerIdentifyCompletion)
+}
+extension IDentityLivenessSDK.IDentitySDK {
+  public static var genericCustomerData: IDentityLivenessSDK.GenericCustomerData
+  public static var genericSignatureDataRequest: IDentityLivenessSDK.SignatureDataRequest?
+  public class func genericApiCall(genericDataDictionary: [Swift.String : Any], completion: @escaping IDentityLivenessSDK.GenericAPICompletion)
+}
+public struct TrainingModelDownloadDetails : Swift.Encodable {
+  public var previousUniqueKeyId: Swift.String?
+  public var algorithm: Swift.String?
+  public init(previousUniqueKeyId: Swift.String?, modelType: Swift.String, algorithm: Swift.String? = "AES/GCM/NoPadding")
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct CompanyTemplateMappingData : Swift.Codable {
+  public var templateId: Swift.Int?
+  public var templateType: Swift.String?
+  public var country: Swift.String?
+  public var idType: Swift.String?
+  public var version: Swift.Int?
+  public var side: Swift.String?
+  public var state: Swift.String?
+  public var lastUpdatedOn: Swift.String?
+  public var notFor1ToNMatch: Swift.Bool?
+  public var usedAs: Swift.String?
+  public var under21: Swift.Bool?
+  public var mrzCode: Swift.String?
+  public var barCodeType: Swift.String?
+  public var mrzpresent: Swift.Bool?
+  public var facePresent: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrainingModelResponse : Swift.Codable {
+  public var modelType: Swift.String
+  public var preSignedURL: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct XsltData : Swift.Codable {
+  public var code: Swift.String?
+  public var countryCode: Swift.String?
+  public var idType: Swift.String?
+  public var matchPattern: Swift.String?
+  public var state: Swift.String?
+  public var xslt: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CompanyData : Swift.Codable {
+  public var name: Swift.String?
+  public var companyId: Swift.Int?
+  public var merchantId: Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}

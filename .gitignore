@@ -1,0 +1,16 @@
+# macOS Finder metadata
+.DS_Store
+
+# SwiftPM generated folder – everything inside is recreated automatically
+.swiftpm/
+
+# Xcode user data (in case you open the package as a workspace)
+*.xcworkspace
+*.xcuserdata/
+DerivedData/
+
+# Uncomment the next line if you want to ignore the lock file
+# Package.resolved
+
+# Release file
+GitHub_Release.sh

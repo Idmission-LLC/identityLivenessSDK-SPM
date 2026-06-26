@@ -1,0 +1,4 @@
+framework module SelfieCaptureLiveness {
+  header "SelfieCaptureLiveness-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module IDentityLivenessSDK {
+  umbrella header "IDentityLivenessSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module IDentityLivenessSDK.Swift {
+  header "IDentityLivenessSDK-Swift.h"
+  requires objc
+}
