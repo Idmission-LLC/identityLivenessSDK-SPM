@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IDentityLivenessSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDentityLivenessSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import Accelerate
 import Darwin.C
@@ -71,7 +71,9 @@ public struct CustomerAutofillDataRQ : Swift.Encodable {
   public var additionalData: IDentityLivenessSDK.CustomerAdditionalData
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idData: IDentityLivenessSDK.CustomerAutofillIdDataRequestV4, additionalData: IDentityLivenessSDK.CustomerAdditionalData, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CriminalRecordResult : Swift.Codable {
@@ -119,7 +121,9 @@ public enum EventName : Swift.String, Swift.Codable {
   case documentCaptureEvent
   case voiceCaptureEvent
   case fingerPrintCaptureEvent
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -134,7 +138,9 @@ public enum EventStatus : Swift.String, Swift.Codable {
   case completed
   case failed
   case error
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -171,13 +177,17 @@ public struct IdDataVerifyRequest : Swift.Encodable {
   public var idNumber2: Swift.String?
   public var issueDate: Swift.String?
   public var expDate: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idNumber: Swift.String? = nil, idNumber2: Swift.String? = nil, issueDate: Swift.String? = nil, expDate: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct SignatureDataRequest : Swift.Codable {
   public var signatureImage: Swift.String?
   public var signatureVideo: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -186,7 +196,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -195,7 +207,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum BypassAgeValidation : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -204,7 +218,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DeDuplicationRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -214,7 +230,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -223,7 +241,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum SendMetaDataInPost : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -233,7 +253,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -243,7 +265,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -252,7 +276,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum NeedImmediateResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -261,7 +287,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DeduplicationSynchronous : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -270,7 +298,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum VerifyDataWithHost : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -279,7 +309,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum IdBackImageRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -288,7 +320,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum StripSpecialCharacters : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -297,7 +331,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum IdImageResolutionCheck : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -306,7 +342,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DeDupDataRequiredInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -315,7 +353,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DeDupManualReviewRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -324,7 +364,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum PostDataOnReviewRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -333,7 +375,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DetectLiveness : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -342,7 +386,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DetectLabel : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -351,7 +397,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum DetectClosedEyes : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -360,7 +408,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public enum SendDocumentIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -397,7 +447,9 @@ public struct AdditionalCustomerEnrollBiometricRequestData : Swift.Encodable {
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
   public var verificationApprovalCode: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DeDuplicationRequired? = nil, postDataAPIRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.SendMetaDataInPost? = .yes, sendInputImagesInPost: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.SendInputImagesInPost? = .no, sendProcessedImagesInPost: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.SendProcessedImagesInPost? = .no, needImmediateResponse: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.NeedImmediateResponse? = nil, deduplicationSynchronous: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DeduplicationSynchronous? = .no, verifyDataWithHost: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.VerifyDataWithHost? = .no, idBackImageRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.IdBackImageRequired? = .yes, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.StripSpecialCharacters? = .yes, idImageResolutionCheck: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupDataRequiredInResponse? = .yes, deDupManualReviewRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DeDupManualReviewRequired? = .yes, postDataOnReviewRequired: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.PostDataOnReviewRequired? = .yes, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLiveness? = .yes, detectLabel: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DetectLabel? = .no, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.DetectClosedEyes? = .yes, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData.SendDocumentIdInResponse? = .yes, verificationApprovalCode: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerAutofillRequest : Swift.Encodable {
@@ -413,7 +465,9 @@ public struct BiometricVerifyRequestData : Swift.Encodable {
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
@@ -421,18 +475,24 @@ public struct BiometricVerifyRequestData : Swift.Encodable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public static var gpsCoordinates: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static var latitude: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static var longitude: Swift.String? {
     get
   }
+  #endif
   public static func requestLocation()
   public static func isAuthorized(completion: @escaping IDentityLivenessSDK.BoolCompletion)
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
@@ -442,7 +502,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -451,7 +513,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum BypassAgeValidation : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -460,7 +524,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DeDuplicationRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -469,7 +535,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum BypassNameMatching : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -479,7 +547,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -488,7 +558,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum SendMetaDataInPost : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -498,7 +570,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -508,7 +582,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -517,7 +593,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum NeedImmediateResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -526,7 +604,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DeduplicationSynchronous : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -535,7 +615,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum VerifyDataWithHost : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -544,7 +626,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum IdBackImageRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -553,7 +637,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum StripSpecialCharacters : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -562,7 +648,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum IdImageResolutionCheck : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -571,7 +659,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DeDupDataRequiredInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -580,7 +670,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DeDupManualReviewRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -589,7 +681,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum PostDataOnReviewRequired : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -598,7 +692,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum SendProcessedImagesInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -607,7 +703,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum SendInputImagesInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -616,7 +714,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DetectLiveness : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -625,7 +725,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum AdvancedTamperDetection : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -634,7 +736,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DetectLabel : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -643,7 +747,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum DetectClosedEyes : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -652,7 +758,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum SendSignatureFromIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -661,7 +769,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum SendDocumentIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -704,7 +814,9 @@ public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public var sendInputImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse?
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientTraceId: Swift.String? = nil, clientRequestID: Swift.String? = nil, manualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.ManualReviewRequired? = .no, bypassAgeValidation: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassAgeValidation? = .no, deDuplicationRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDuplicationRequired? = .no, bypassNameMatching: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.BypassNameMatching? = .yes, postDataAPIRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendMetaDataInPost? = nil, sendInputImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInPost? = nil, sendProcessedImagesInPost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInPost? = nil, needImmediateResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.NeedImmediateResponse? = nil, deduplicationSynchronous: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeduplicationSynchronous? = nil, verifyDataWithHost: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.VerifyDataWithHost? = nil, idBackImageRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdBackImageRequired? = nil, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.StripSpecialCharacters? = nil, idImageResolutionCheck: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.IdImageResolutionCheck? = .yes, deDupDataRequiredInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupDataRequiredInResponse? = nil, deDupManualReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DeDupManualReviewRequired? = .yes, postDataOnReviewRequired: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.PostDataOnReviewRequired? = .no, postDataOnReviewAPIURL: Swift.String? = nil, paymentGateway: Swift.String? = nil, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLiveness: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLiveness? = .yes, advancedTamperDetection: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.AdvancedTamperDetection? = .no, detectLabel: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectLabel? = nil, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.DetectClosedEyes? = nil, sendSignatureFromIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromIdInResponse? = nil, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse? = nil, customerDataMatchConfig: IDentityLivenessSDK.CustomerDataMatchConfig? = nil, sendProcessedImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendProcessedImagesInResponse? = .no, sendInputImagesInResponse: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData.SendInputImagesInResponse? = .no)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct DocumentTamper : Swift.Codable {
@@ -726,7 +838,9 @@ public struct CustomerValidateIdFaceMatchDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricValidateIdFaceMatchData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idData: IDentityLivenessSDK.IdDataRequest, personalData: IDentityLivenessSDK.PersonalDataRequest? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricValidateIdFaceMatchData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct PersonalDataRequest : Swift.Encodable {
@@ -748,7 +862,9 @@ public struct PersonalDataRequest : Swift.Encodable {
   public var country: Swift.String?
   public var cardToken: Swift.String?
   public var cardLast4: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(uniqueNumber: Swift.String? = nil, name: Swift.String? = nil, firstName: Swift.String? = nil, middleName: Swift.String? = nil, lastName: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityLivenessSDK.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil, cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerValidateIdDataRequest : Swift.Encodable {
@@ -758,7 +874,9 @@ public struct CustomerValidateIdDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricDataValidateId
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idData: IDentityLivenessSDK.IdDataRequest, personalData: IDentityLivenessSDK.PersonalDataRequest? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricDataValidateId)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct BiometricEnrollBiometricRequestData : Swift.Encodable {
@@ -766,7 +884,9 @@ public struct BiometricEnrollBiometricRequestData : Swift.Encodable {
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct VideoIDDataResponse : Swift.Codable {
@@ -928,7 +1048,9 @@ extension UIKit.UIDevice {
     case jailbreakCompromised
     case debuggerCompromised
     case hookingCompromised
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     @available(iOS 2.0, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
@@ -952,7 +1074,9 @@ public struct PersonalCustomerEnrollBiometricsRequestData : Swift.Encodable {
   public var country: Swift.String?
   public var cardToken: Swift.String?
   public var cardLast4: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(uniqueNumber: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityLivenessSDK.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil, cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension IDentityLivenessSDK.SelfieCapture {
@@ -995,7 +1119,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
     case yes
     case no
     case blank
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1004,7 +1130,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public enum StripSpecialCharacters : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1013,7 +1141,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public enum SendMetaDataInPost : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1022,7 +1152,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public enum DetectLabel : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1031,7 +1163,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public enum DetectClosedEyes : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1040,7 +1174,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public enum SendDocumentIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1061,7 +1197,9 @@ public struct AdditionalCustomerCommonData : Swift.Encodable {
   public var sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerCommonData.SendDocumentIdInResponse?
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, verificationApprovalCode: Swift.String? = nil, clientRequestID: Swift.String? = nil, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerCommonData.StripSpecialCharacters? = .yes, postDataAPIRequired: IDentityLivenessSDK.AdditionalCustomerCommonData.PostDataAPIRequired? = .no, postDataAPIURL: Swift.String? = nil, sendMetaDataInPost: IDentityLivenessSDK.AdditionalCustomerCommonData.SendMetaDataInPost? = .yes, gpsCoordinates: Swift.String? = nil, piiExclusion: Swift.String? = nil, detectLabel: IDentityLivenessSDK.AdditionalCustomerCommonData.DetectLabel? = .no, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerCommonData.DetectClosedEyes? = .no, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerCommonData.SendDocumentIdInResponse? = .yes)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerAutofillDataRS : Swift.Codable {
@@ -1129,7 +1267,9 @@ public struct PersonalCustomerCommonRequestEnrollData : Swift.Encodable {
   public enum Gender : Swift.String, Swift.Encodable {
     case female
     case male
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1152,7 +1292,9 @@ public struct PersonalCustomerCommonRequestEnrollData : Swift.Encodable {
   public var state: Swift.String?
   public var postalCode: Swift.String?
   public var country: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(uniqueNumber: Swift.String, name: Swift.String? = nil, firstName: Swift.String? = nil, middleName: Swift.String? = nil, lastName: Swift.String? = nil, phone: Swift.String? = nil, phoneCountryCode: Swift.String? = nil, email: Swift.String? = nil, dob: Swift.String? = nil, gender: IDentityLivenessSDK.PersonalCustomerCommonRequestEnrollData.Gender? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, state: Swift.String? = nil, postalCode: Swift.String? = nil, country: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerVerifyDataRequest : Swift.Encodable {
@@ -1164,7 +1306,9 @@ public struct CustomerVerifyDataRequest : Swift.Encodable {
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var consentData: IDentityLivenessSDK.ConsentData?
   public var biometricData: IDentityLivenessSDK.BiometricVerifyRequestData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerId: Swift.String? = nil, idData: IDentityLivenessSDK.IdDataVerifyRequest, personalData: IDentityLivenessSDK.PersonalCustomerVerifyData, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, consentData: IDentityLivenessSDK.ConsentData? = nil, biometricData: IDentityLivenessSDK.BiometricVerifyRequestData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum CameraPosition {
@@ -1192,15 +1336,21 @@ public enum PromptType {
   @_Concurrency.MainActor @preconcurrency open var isCapturingFace: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var videoPreviewLayer: AVFoundation.AVCaptureVideoPreviewLayer? {
     get
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency open func captureSessionDidStartRunning()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct PersonalCustomerVerifyResponseData : Swift.Codable {
@@ -1236,7 +1386,9 @@ public struct CustomerDataIdentifyRQ : Swift.Encodable {
   public var signatureData: IDentityLivenessSDK.SignatureDataRequest?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricIdentifyData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricIdentifyData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct PersonalCustomerIdentifyResponseData : Swift.Codable {
@@ -1278,8 +1430,8 @@ public struct GzipError : Swift.Error, Swift.Hashable, Swift.Sendable {
     case buffer
     case version
     case unknown(code: Swift.Int)
-    public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: IDentityLivenessSDK.GzipError.Kind, b: IDentityLivenessSDK.GzipError.Kind) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
@@ -1289,8 +1441,8 @@ public struct GzipError : Swift.Error, Swift.Hashable, Swift.Sendable {
   public var localizedDescription: Swift.String {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: IDentityLivenessSDK.GzipError, b: IDentityLivenessSDK.GzipError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -1300,12 +1452,8 @@ extension Foundation.Data {
   public var isGzipped: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $TypedThrows
   public func gzipped(level: IDentityLivenessSDK.CompressionLevel = .defaultCompression, wBits: Swift.Int32 = maxWindowBits + 16) throws(IDentityLivenessSDK.GzipError) -> Foundation.Data
-  #endif
-  #if compiler(>=5.3) && $TypedThrows
   public func gunzipped(wBits: Swift.Int32 = maxWindowBits + 32) throws(IDentityLivenessSDK.GzipError) -> Foundation.Data
-  #endif
 }
 public struct CompressionLevel : Swift.RawRepresentable, Swift.Hashable, Swift.Sendable {
   public var rawValue: Swift.Int32
@@ -1339,9 +1487,11 @@ public enum InterpreterError : Swift.Error, Swift.Equatable, Swift.Hashable {
   }
 }
 extension IDentityLivenessSDK.InterpreterError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 extension IDentityLivenessSDK.InterpreterError : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -1440,9 +1590,11 @@ extension IDentityLivenessSDK.Interpreter {
 @available(*, deprecated, renamed: "Interpreter.Options")
 public typealias InterpreterOptions = IDentityLivenessSDK.Interpreter.Options
 extension IDentityLivenessSDK.GzipError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public struct FormDetailEnrollBiometricsResponseData : Swift.Codable {
   public var uniqueRequestId: Swift.String?
@@ -1473,17 +1625,39 @@ public struct CustomerDataResponse : Swift.Codable {
 }
 extension IDentityLivenessSDK.IDentitySDK {
   public class func getXMLString(request: IDentityLivenessSDK.GenericDataRequest, genericDataDictionary: [Swift.String : Any]) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getJSONString(dictionary: [Swift.String : Any]) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getImageJSONString(for fileBase64: Swift.String, formKey: Swift.String, ifForFace: Swift.Bool? = nil, pdfDocumentName: Swift.String? = nil, extensionType: IDentityLivenessSDK.ExtensionType? = nil) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getFingerprintJSONString(fingerPrintData: IDentityLivenessSDK.FingerPrintData?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getVoiceJSONString(fileContent: Swift.String, formKey: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getLiveFaceImageDataNode(formKey: Swift.String, formID: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalData: [Swift.String : Any]?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getPrimaryIdImageDataNode(formKey: Swift.String, serviceId: Swift.String?, request: IDentityLivenessSDK.GenericDataRequest, idType: Swift.String?, countryCode: Swift.String?, stateCode: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getSecodaryIdImageDataNode(formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, idType_sec: Swift.String?, countryCode_sec: Swift.String?, stateCode_sec: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getEmployeeInformationDataNode(request: IDentityLivenessSDK.GenericDataRequest, employeeInfoXMLString: Swift.String?, employeeCode: Swift.String?, serviceID: Swift.String?) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getSignatureCaptureNode(request: IDentityLivenessSDK.GenericDataRequest) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getFingerPrintXMLNode(request: IDentityLivenessSDK.GenericDataRequest, for process: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func getAdditionalDataXMLNode(loginId: Swift.String, merchantId: Swift.String, CompanyId: Swift.String, companyName: Swift.String, formKey: Swift.String, request: IDentityLivenessSDK.GenericDataRequest, additionalDictionary: [Swift.String : Any]?) -> Swift.String?
+  #endif
 }
 public struct CriminalOffensesResult : Swift.Codable {
   public var title: Swift.String?
@@ -1522,7 +1696,9 @@ public struct CustomerEnrollBiometricsRequest : Swift.Encodable {
   public var customerData: IDentityLivenessSDK.CustomerEnrollBiometricDataRequest
   public var additionalData: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData
   public var companyData: IDentityLivenessSDK.EmployeeData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerData: IDentityLivenessSDK.CustomerEnrollBiometricDataRequest, additionalData: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData, companyData: IDentityLivenessSDK.EmployeeData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerDataMatchResult : Swift.Codable {
@@ -1553,7 +1729,9 @@ public struct CustomerAdditionalData : Swift.Encodable {
   public enum SendDocumentIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1566,14 +1744,18 @@ public struct CustomerAdditionalData : Swift.Encodable {
   public var gpsCoordinates: Swift.String?
   public var metadata: Swift.String?
   public var ocrMetadata: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientRequestID: Swift.String? = nil, sendDocumentIdInResponse: IDentityLivenessSDK.CustomerAdditionalData.SendDocumentIdInResponse? = .yes, gpsCoordinates: Swift.String? = nil, metadata: Swift.String? = nil, ocrMetadata: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerEnrollRequest : Swift.Encodable {
   public var customerData: IDentityLivenessSDK.CustomerEnrollDataRequest
   public var additionalData: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData
   public var companyData: IDentityLivenessSDK.EmployeeData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerData: IDentityLivenessSDK.CustomerEnrollDataRequest, additionalData: IDentityLivenessSDK.AdditionalCustomerWFlagCommonData, companyData: IDentityLivenessSDK.EmployeeData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias AutofillAPICompletion = (_ result: Swift.Result<IDentityLivenessSDK.CustomerAutofillResponse, any Swift.Error>) -> Swift.Void
@@ -1716,7 +1898,9 @@ public struct FingerPrint : Swift.Encodable {
     case leftRingFinger
     case leftLittleFinger
     case unknown
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -1726,7 +1910,9 @@ public struct FingerPrint : Swift.Encodable {
   public var fpPosition: IDentityLivenessSDK.FingerPrint.Position
   public var imageHashValue: Swift.String?
   public var nfiq: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(fpData: Swift.String, fpPosition: IDentityLivenessSDK.FingerPrint.Position, imageHashValue: Swift.String? = nil, nfiq: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerEnrollBiometricDataRequest : Swift.Encodable {
@@ -1738,13 +1924,17 @@ public struct CustomerEnrollBiometricDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricEnrollData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerId: Swift.String? = nil, idData: IDentityLivenessSDK.IdDataEnrollRequest? = nil, personalData: IDentityLivenessSDK.PersonalCustomerEnrollBiometricsRequestData, cardData: IDentityLivenessSDK.CardDataRequest? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricEnrollData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct BiometricLiveCheckData : Swift.Encodable {
   public var selfie: Swift.String
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct TrainingModelDownloadResponse : Swift.Codable {
@@ -1860,9 +2050,11 @@ public enum XMLIndexer {
   public static func XMLError(_: IDentityLivenessSDK.IndexingError) -> IDentityLivenessSDK.XMLIndexer
   @available(*, unavailable, renamed: "withAttribute(_:_:)")
   public static func withAttr(_ attr: Swift.String, _ value: Swift.String) throws -> IDentityLivenessSDK.XMLIndexer
+  #if compiler(>=5.3) && $NonescapableTypes
   public var element: IDentityLivenessSDK.XMLElement? {
     get
   }
+  #endif
   public var all: [IDentityLivenessSDK.XMLIndexer] {
     get
   }
@@ -1914,7 +2106,9 @@ public struct XMLAttribute {
     get
   }
   public var allAttributes: [Swift.String : IDentityLivenessSDK.XMLAttribute]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func attribute(by name: Swift.String) -> IDentityLivenessSDK.XMLAttribute?
+  #endif
   public var text: Swift.String {
     get
   }
@@ -1954,12 +2148,16 @@ extension IDentityLivenessSDK.XMLIndexer {
   }
 }
 extension IDentityLivenessSDK.XMLElement {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func attribute<N>(by name: N) -> IDentityLivenessSDK.XMLAttribute? where N : Swift.RawRepresentable, N.RawValue == Swift.String
+  #endif
 }
 public enum Gender : Swift.String, Swift.Encodable {
   case female
   case male
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1974,7 +2172,9 @@ public struct CommonCustomerDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.CommonAdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var consentData: IDentityLivenessSDK.ConsentData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerId: Swift.String? = nil, idData: IDentityLivenessSDK.CommonIdDataRequest? = nil, personalData: IDentityLivenessSDK.PersonalDataRequest? = nil, cardData: IDentityLivenessSDK.CardDataRequest? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.CommonAdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, consentData: IDentityLivenessSDK.ConsentData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CommonIdDataRequest : Swift.Encodable {
@@ -1989,7 +2189,9 @@ public struct CommonIdDataRequest : Swift.Encodable {
   public var idBackIrImage: Swift.String?
   public var idFrontUvImage: Swift.String?
   public var idBackUvImage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idBarcodeImage: Swift.String? = nil, idNumber: Swift.String? = nil, idNumber2: Swift.String? = nil, issueDate: Swift.String? = nil, expDate: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, idFrontIrImage: Swift.String? = nil, idBackIrImage: Swift.String? = nil, idFrontUvImage: Swift.String? = nil, idBackUvImage: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CommonAdditionalDocumentsRequest : Swift.Encodable {
@@ -1997,7 +2199,9 @@ public struct CommonAdditionalDocumentsRequest : Swift.Encodable {
   public var additionalDocument: Swift.String?
   public var processAsPOA: IDentityLivenessSDK.ProcessAsPOA?
   public var analysePOA: IDentityLivenessSDK.AnalysePOA?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(documentName: Swift.String? = nil, additionalDocument: Swift.String? = nil, processAsPOA: IDentityLivenessSDK.ProcessAsPOA? = .no, analysePOA: IDentityLivenessSDK.AnalysePOA? = .no)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerDataValidateIdResponse : Swift.Codable {
@@ -2014,7 +2218,9 @@ public struct CustomerVerifyRequest : Swift.Encodable {
   public var customerData: IDentityLivenessSDK.CustomerVerifyDataRequest
   public var additionalData: IDentityLivenessSDK.AdditionalCustomerCommonData
   public var employee: IDentityLivenessSDK.EmployeeData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerData: IDentityLivenessSDK.CustomerVerifyDataRequest, additionalData: IDentityLivenessSDK.AdditionalCustomerCommonData, employee: IDentityLivenessSDK.EmployeeData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerVerifyResponse : Swift.Codable {
@@ -2025,15 +2231,21 @@ public struct CustomerVerifyResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension Foundation.Data {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var floats: [Swift.Float]? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var cgFloats: [CoreFoundation.CGFloat]? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var bytes: [Swift.UInt8]? {
     get
   }
+  #endif
 }
 public struct CustomerAutofillResponse : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
@@ -2046,7 +2258,9 @@ public struct CustomerAutofillResponse : Swift.Codable {
 }
 public struct EmployeeData : Swift.Encodable {
   public var companyId: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(companyId: Swift.Int? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerEnrollDataRequest : Swift.Encodable {
@@ -2058,7 +2272,9 @@ public struct CustomerEnrollDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricEnrollData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerId: Swift.String? = nil, idData: IDentityLivenessSDK.IdDataRequest, personalData: IDentityLivenessSDK.PersonalCustomerCommonRequestEnrollData, cardData: IDentityLivenessSDK.CardDataRequest? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricEnrollData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct OrderPEPResult : Swift.Codable {
@@ -2111,7 +2327,9 @@ public struct BiometricEnrollData : Swift.Encodable {
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct OrderWLSResult : Swift.Codable {
@@ -2142,7 +2360,9 @@ public struct CustomerIdentifyRequest : Swift.Encodable {
   public var additionalData: IDentityLivenessSDK.AdditionalCustomerCommonData
   public var customerData: IDentityLivenessSDK.CustomerDataIdentifyRQ?
   public var companyData: IDentityLivenessSDK.EmployeeData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(additionalData: IDentityLivenessSDK.AdditionalCustomerCommonData, customerData: IDentityLivenessSDK.CustomerDataIdentifyRQ? = nil, companyData: IDentityLivenessSDK.EmployeeData? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct AdditionalCustomerLiveCheckResponseData : Swift.Codable {
@@ -2205,7 +2425,9 @@ public struct CardDataRequest : Swift.Encodable {
   public var cardLast4: Swift.String?
   public var cardExpDate: Swift.String?
   public var nameOnCard: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil, cardExpDate: Swift.String? = nil, nameOnCard: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct FormDetailLiveCheckResponseData : Swift.Codable {
@@ -2247,7 +2469,9 @@ public struct Metadata : Swift.Encodable {
     public var screen: Swift.String?
     public var detectedRect: IDentityLivenessSDK.Metadata.DetectedRect
     public var confidence: Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(operationTime: Swift.Int, captureTime: Swift.Int, avgRealness: Swift.Float?, avgPhotoCopy: Swift.Float?, avgScreen: Swift.Float?, detectedRect: IDentityLivenessSDK.Metadata.DetectedRect, confidence: Swift.Float)
+    #endif
     public func encode(to encoder: any Swift.Encoder) throws
   }
   public struct Back : Swift.Encodable {
@@ -2258,7 +2482,9 @@ public struct Metadata : Swift.Encodable {
     public var screen: Swift.String?
     public var detectedRect: IDentityLivenessSDK.Metadata.DetectedRect
     public var confidence: Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(operationTime: Swift.Int, captureTime: Swift.Int, avgRealness: Swift.Float?, avgPhotoCopy: Swift.Float?, avgScreen: Swift.Float?, detectedRect: IDentityLivenessSDK.Metadata.DetectedRect, confidence: Swift.Float)
+    #endif
     public func encode(to encoder: any Swift.Encoder) throws
   }
   public struct Selfie : Swift.Encodable {
@@ -2268,11 +2494,15 @@ public struct Metadata : Swift.Encodable {
     public var operationTime: Swift.Int
     public var captureTime: Swift.Int
     public var detectedRect: IDentityLivenessSDK.Metadata.DetectedRect
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(avgLiveness: Swift.Float, faceFocus_Score: Swift.Float?, faceMask_Score: Swift.Float?, operationTime: Swift.Int, captureTime: Swift.Int, detectedRect: IDentityLivenessSDK.Metadata.DetectedRect)
+    #endif
     public func encode(to encoder: any Swift.Encoder) throws
   }
   public var selfie: [IDentityLivenessSDK.Metadata.Selfie]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(front: [IDentityLivenessSDK.Metadata.Front]? = nil, back: [IDentityLivenessSDK.Metadata.Back]? = nil, selfie: [IDentityLivenessSDK.Metadata.Selfie]? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct FormDetailIdentifyResponseData : Swift.Codable {
@@ -2313,7 +2543,9 @@ public enum Language : Swift.String {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -2341,7 +2573,9 @@ public struct IdDataRequest : Swift.Encodable {
     case voterIdCard
     case workVisaOrPemit
     case notSpecified
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2363,7 +2597,9 @@ public struct IdDataRequest : Swift.Encodable {
   public var idBackIrImage: Swift.String?
   public var idFrontUvImage: Swift.String?
   public var idBackUvImage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idType: IDentityLivenessSDK.IdDataRequest.IdType, idCountry: Swift.String, idState: Swift.String? = nil, idImageFront: Swift.String, idImageBack: Swift.String? = nil, idBarcodeImage: Swift.String? = nil, idNumber: Swift.String? = nil, idNumber2: Swift.String? = nil, issueDate: Swift.String? = nil, expDate: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, idFrontIrImage: Swift.String? = nil, idBackIrImage: Swift.String? = nil, idFrontUvImage: Swift.String? = nil, idBackUvImage: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerLiveCheckDataRequest : Swift.Encodable {
@@ -2371,7 +2607,9 @@ public struct CustomerLiveCheckDataRequest : Swift.Encodable {
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
   public var policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData?
   public var biometricData: IDentityLivenessSDK.BiometricLiveCheckData
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil, policyAcceptanceData: IDentityLivenessSDK.PolicyAcceptanceData? = nil, biometricData: IDentityLivenessSDK.BiometricLiveCheckData)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct BiometricDataValidateId : Swift.Encodable {
@@ -2380,7 +2618,9 @@ public struct BiometricDataValidateId : Swift.Encodable {
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct PolicyAcceptanceData : Swift.Codable {
@@ -2390,7 +2630,9 @@ public struct PolicyAcceptanceData : Swift.Codable {
   public var PrivacypolicyURL: Swift.String?
   public var TermTimestamp: Swift.String?
   public var TermsofserviceURL: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(BiometricTimestamp: Swift.String? = nil, BiometricURL: Swift.String? = nil, PrivacyPolicyTimestamp: Swift.String? = nil, PrivacypolicyURL: Swift.String? = nil, TermTimestamp: Swift.String? = nil, TermsofserviceURL: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -2477,14 +2719,18 @@ public struct BiometricIdentifyData : Swift.Encodable {
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct GenericDataRequest : Swift.Encodable {
   public var customerData: IDentityLivenessSDK.GenericCustomerData?
   public var signatureData: IDentityLivenessSDK.SignatureDataRequest?
   public var additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(customerData: IDentityLivenessSDK.GenericCustomerData? = nil, signatureData: IDentityLivenessSDK.SignatureDataRequest? = nil, additionalDocuments: [IDentityLivenessSDK.AdditionalDocumentsRequest]? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct GenericCustomerData : Swift.Encodable {
@@ -2502,7 +2748,9 @@ public struct GenericCustomerData : Swift.Encodable {
   public var expectedAudioText: Swift.String?
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, secondaryIdImageFront: Swift.String? = nil, secondaryIdImageBack: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil, metadata: IDentityLivenessSDK.Metadata? = nil, ocrMetadata: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerValidateIdRequest : Swift.Encodable {
@@ -2516,7 +2764,9 @@ public struct FingerPrintMetadata : Swift.Encodable {
     case jpeg
     case wsq
     case iso
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2526,7 +2776,9 @@ public struct FingerPrintMetadata : Swift.Encodable {
   public var model: Swift.String?
   public var serialNumber: Swift.String?
   public var backgroundColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(format: IDentityLivenessSDK.FingerPrintMetadata.Format, model: Swift.String? = nil, serialNumber: Swift.String? = nil, backgroundColor: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CardData : Swift.Codable {
@@ -2540,13 +2792,18 @@ public struct CardData : Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers public class IDError : Foundation.NSError {
   convenience public init(_ localizedDescription: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension IDentityLivenessSDK.IDError {
   public enum Strings {
     case sdkNotInitialized
+    case geoLocationNotAuthorized
     case jailbrokenDeviceDetected
     case hookingFrameworkDetected
     case debuggerAttachedDetected
@@ -2677,8 +2934,12 @@ extension IDentityLivenessSDK.SelfieCapture {
     public var borderColor: UIKit.UIColor?
     public var cornerRadius: CoreFoundation.CGFloat?
     public var clipsToBounds: Swift.Bool?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(borderWidth: CoreFoundation.CGFloat? = nil, borderColor: UIKit.UIColor? = nil, cornerRadius: CoreFoundation.CGFloat? = nil, clipsToBounds: Swift.Bool? = nil)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public static func style(borderWidth: CoreFoundation.CGFloat? = nil, borderColor: UIKit.UIColor? = nil, cornerRadius: CoreFoundation.CGFloat? = nil, clipsToBounds: Swift.Bool? = nil) -> IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle
+    #endif
   }
   public struct ButtonStyle {
     public var instructionScreenContinueButton: IDentityLivenessSDK.SelfieCapture.ButtonBorderStyle?
@@ -2752,7 +3013,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum StripSpecialCharacters : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2761,7 +3024,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum EstimateAge : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2770,7 +3035,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum PredictGender : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2779,7 +3046,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum DetectLabel : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2788,7 +3057,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum DetectClosedEyes : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2797,7 +3068,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public enum SendDocumentIdInResponse : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2815,7 +3088,9 @@ public struct AdditionalCustomerLiveCheckData : Swift.Encodable {
   public var sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.SendDocumentIdInResponse?
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idToken: Swift.String? = "", uniqueRequestId: Swift.String = IDentitySDK.requestID, clientRequestID: Swift.String? = nil, stripSpecialCharacters: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.StripSpecialCharacters? = .yes, estimateAge: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.EstimateAge? = .no, predictGender: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.PredictGender? = .no, gpsCoordinates: Swift.String? = nil, detectLabel: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.DetectLabel? = .yes, detectClosedEyes: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.DetectClosedEyes? = .yes, sendDocumentIdInResponse: IDentityLivenessSDK.AdditionalCustomerLiveCheckData.SendDocumentIdInResponse? = .no)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension CoreFoundation.CGRect {
@@ -2849,8 +3124,12 @@ public typealias TemplateDetailAPICompletion = (_ result: Swift.Result<IDentityL
 public typealias TrainingModelDownloadAPICompletion = (_ result: Swift.Result<IDentityLivenessSDK.TrainingModelDownloadResponse, any Swift.Error>) -> Swift.Void
 public class QKMRZParser {
   public init(ocrCorrection: Swift.Bool = false)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parse(mrzLines: [Swift.String]) -> IDentityLivenessSDK.QKMRZResult?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parse(mrzString: Swift.String) -> IDentityLivenessSDK.QKMRZResult?
+  #endif
   @objc deinit
 }
 extension QuartzCore.CALayer {
@@ -2861,7 +3140,9 @@ public struct ConsentData : Swift.Encodable {
   public enum ConsentAccepted : Swift.String, Swift.Encodable {
     case yes
     case no
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -2869,21 +3150,27 @@ public struct ConsentData : Swift.Encodable {
   }
   public var consentAccepted: IDentityLivenessSDK.ConsentData.ConsentAccepted?
   public var consentAcceptedTimestamp: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(consentAccepted: IDentityLivenessSDK.ConsentData.ConsentAccepted? = .yes, consentAcceptedTimestamp: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerAutofillIdDataRequestV4 : Swift.Encodable {
   public var idImageFront: Swift.String?
   public var idImageBack: Swift.String?
   public var idBarcodeImage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, idBarcodeImage: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias DocumentCaptureCompletion = (_ result: Swift.Result<IDentityLivenessSDK.AdditionalDocumentsRequest, any Swift.Error>) -> Swift.Void
 public enum ProcessAsPOA : Swift.String, Swift.Encodable {
   case yes
   case no
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -2892,7 +3179,9 @@ public enum ProcessAsPOA : Swift.String, Swift.Encodable {
 public enum AnalysePOA : Swift.String, Swift.Encodable {
   case yes
   case no
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -2901,7 +3190,9 @@ public enum AnalysePOA : Swift.String, Swift.Encodable {
 public enum ExtensionType : Swift.String, Swift.Encodable {
   case jpeg
   case pdf
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -2918,14 +3209,24 @@ public struct BiometricValidateIdFaceMatchData : Swift.Encodable {
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func scaledDownToFit(width newWidth: CoreFoundation.CGFloat) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func scaledDownToFit(height newHeight: CoreFoundation.CGFloat) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func scaledRGBData(using scaler: IDentityLivenessSDK.MetalBilinearScaler, size: CoreFoundation.CGSize, normalization: IDentityLivenessSDK.MetalBilinearScaler.NormalizationType) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func cropping(to rect: CoreFoundation.CGRect) -> UIKit.UIImage?
+  #endif
 }
 public struct TemplateDetailResponse : Swift.Codable {
   public var status: IDentityLivenessSDK.StatusData?
@@ -2941,7 +3242,9 @@ public struct AdditionalDocumentsRequest : Swift.Encodable {
   public var analysePOA: IDentityLivenessSDK.AnalysePOA?
   public var pdfDocumentName: Swift.String?
   public var extentionType: IDentityLivenessSDK.ExtensionType?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(documentName: Swift.String, additionalDocument: Swift.String, processAsPOA: IDentityLivenessSDK.ProcessAsPOA? = .no, analysePOA: IDentityLivenessSDK.AnalysePOA? = .no, pdfDocumentName: Swift.String? = nil, extentionType: IDentityLivenessSDK.ExtensionType? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct TextMatchResult : Swift.Codable {
@@ -3283,7 +3586,9 @@ public struct IdDataEnrollRequest : Swift.Encodable {
     case voterIdCard
     case workVisaOrPemit
     case notSpecified
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3304,7 +3609,9 @@ public struct IdDataEnrollRequest : Swift.Encodable {
   public var idBackIrImage: Swift.String?
   public var idFrontUvImage: Swift.String?
   public var idBackUvImage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idType: IDentityLivenessSDK.IdDataEnrollRequest.IdType? = nil, idCountry: Swift.String? = nil, idState: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, idNumber: Swift.String? = nil, idNumber2: Swift.String? = nil, issueDate: Swift.String? = nil, expDate: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, idFrontIrImage: Swift.String? = nil, idBackIrImage: Swift.String? = nil, idFrontUvImage: Swift.String? = nil, idBackUvImage: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CustomerDataMatchConfig : Swift.Encodable {
@@ -3312,7 +3619,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3322,7 +3631,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3332,7 +3643,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3342,7 +3655,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3352,7 +3667,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3362,7 +3679,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3372,7 +3691,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3382,7 +3703,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3392,7 +3715,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3402,7 +3727,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3412,7 +3739,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3422,7 +3751,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3432,7 +3763,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3442,7 +3775,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3452,7 +3787,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case yes
     case no
     case forced
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3462,7 +3799,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
     case nm
     case lv
     case jw
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -3492,7 +3831,9 @@ public struct CustomerDataMatchConfig : Swift.Encodable {
   public var addressMatch: IDentityLivenessSDK.CustomerDataMatchConfig.AddressMatch?
   public var addressMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.AddressMatchAlgorithm?
   public var addressMatchThreshold: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(idNumberMatch: IDentityLivenessSDK.CustomerDataMatchConfig.IdNumberMatch? = .no, idNumberMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.IdNumberMatchAlgorith? = .jw, idNumberMatchThreshold: Swift.String? = "80", dateOfBirthMatch: IDentityLivenessSDK.CustomerDataMatchConfig.DateOfBirthMatch? = .no, dateOfBirthMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.DateOfBirthMatchAlgorith? = .jw, dateOfBirthMatchThreshold: Swift.String? = "80", expiryDateMatch: IDentityLivenessSDK.CustomerDataMatchConfig.ExpiryDateMatch? = .no, expiryDateMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.ExpiryDateMatchAlgorith? = .jw, expiryDateMatchThreshold: Swift.String? = "90", nameMatch: IDentityLivenessSDK.CustomerDataMatchConfig.NameMatch? = .no, nameMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.NameMatchAlgorith? = .jw, nameMatchThreshold: Swift.String? = "70", firstNameMatch: IDentityLivenessSDK.CustomerDataMatchConfig.FirstNameMatch? = .no, firstNameMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.FirstNameMatchAlgorith? = .jw, firstNameMatchThreshold: Swift.String? = "70", middleNameMatch: IDentityLivenessSDK.CustomerDataMatchConfig.MiddleNameMatch? = .no, middleNameMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.MiddleNameMatchAlgorith? = .jw, middleNameMatchThreshold: Swift.String? = "15", lastNameMatch: IDentityLivenessSDK.CustomerDataMatchConfig.LastNameMatch? = .no, lastNameMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.LastNameMatchAlgorith? = .jw, lastNameMatchThreshold: Swift.String? = "90", addressMatch: IDentityLivenessSDK.CustomerDataMatchConfig.AddressMatch? = .no, addressMatchAlgorithm: IDentityLivenessSDK.CustomerDataMatchConfig.AddressMatchAlgorithm? = .jw, addressMatchThreshold: Swift.String? = "70")
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CountryMaster : Swift.Codable {
@@ -3514,7 +3855,9 @@ public enum InitializationState : Swift.String {
   case downloadingFromS3
   case downloadedFromS3
   case error
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -3528,7 +3871,9 @@ public enum InitializationStage : Swift.String {
   case passiveFaceTrainingModelLabel
   case faceMaskTrainingModelLabel
   case focusFaceTrainingModelLabel
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -3601,7 +3946,9 @@ public struct CustomerEnrollBiometricResponse : Swift.Codable {
 public struct TrainingModelDownloadDetails : Swift.Encodable {
   public var previousUniqueKeyId: Swift.String?
   public var algorithm: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(previousUniqueKeyId: Swift.String?, modelType: Swift.String, algorithm: Swift.String? = "AES/GCM/NoPadding")
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension Foundation.FileManager {

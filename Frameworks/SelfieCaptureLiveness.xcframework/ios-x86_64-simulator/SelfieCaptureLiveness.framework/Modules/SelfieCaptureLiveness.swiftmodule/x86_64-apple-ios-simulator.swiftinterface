@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SelfieCaptureLiveness
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SelfieCaptureLiveness
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AudioToolbox
 import DeveloperToolsSupport
 import Foundation
@@ -71,13 +71,21 @@ public typealias CustomerVerificationCompletion = (_ result: Swift.Result<Selfie
 public typealias CustomerIdentifyCompletion = (_ result: Swift.Result<SelfieCaptureLiveness.CustomerIdentifyResult, any Swift.Error>) -> Swift.Void
 extension IDentityLivenessSDK.IDentitySDK {
   public static var customerLiveCheckRequest: IDentityLivenessSDK.CustomerLiveCheckRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func liveFaceCheck(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, options: IDentityLivenessSDK.AdditionalCustomerLiveCheckData? = nil, completion: @escaping SelfieCaptureLiveness.LiveFaceCheckCompletion)
+  #endif
   public static var customerEnrollBiometricsRequest: IDentityLivenessSDK.CustomerEnrollBiometricsRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func customerEnrollBiometrics(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLivenessSDK.PersonalCustomerEnrollBiometricsRequestData, options: IDentityLivenessSDK.AdditionalCustomerEnrollBiometricRequestData, completion: @escaping SelfieCaptureLiveness.CustomerEnrollBiometricsCompletion)
+  #endif
   public static var customerVerifyRequest: IDentityLivenessSDK.CustomerVerifyRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func customerVerification(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLivenessSDK.PersonalCustomerVerifyData, options: IDentityLivenessSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLiveness.CustomerVerificationCompletion)
+  #endif
   public static var customerIdentifyRequest: IDentityLivenessSDK.CustomerIdentifyRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func identifyCustomer(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLivenessSDK.CommonCustomerDataRequest? = nil, options: IDentityLivenessSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLiveness.CustomerIdentifyCompletion)
+  #endif
 }
 extension IDentityLivenessSDK.IDentitySDK {
   public static var genericCustomerData: IDentityLivenessSDK.GenericCustomerData
@@ -87,7 +95,9 @@ extension IDentityLivenessSDK.IDentitySDK {
 public struct TrainingModelDownloadDetails : Swift.Encodable {
   public var previousUniqueKeyId: Swift.String?
   public var algorithm: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(previousUniqueKeyId: Swift.String?, modelType: Swift.String, algorithm: Swift.String? = "AES/GCM/NoPadding")
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CompanyTemplateMappingData : Swift.Codable {
