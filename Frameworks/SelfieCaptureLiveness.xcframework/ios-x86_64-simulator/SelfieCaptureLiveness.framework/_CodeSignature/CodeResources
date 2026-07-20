@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		KKSyrNN3UvAzgird0FlEDcXHxK0=
+		ptyDuiIQZ92Bz7dmLKPt3rdulHs=
 		</data>
 		<key>Headers/SelfieCaptureLiveness-Swift.h</key>
 		<data>
-		nqB68RQflajbxfxHsJqtvs8zAAM=
+		d29O5dprhemJTUt4xiNgZJg4/0Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5ljKFJBNlpP8cvN3MB2Or/MEjL8=
+		MgQ1Gn3nIhVL7/EUzniaJpRRWFc=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lx+Jv8vkDte/KPWL6Bgb1UE+4WE=
+		lZjCYRvpzd2Gs37T92sPp4kLlhA=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Yg2UpSkF0dLtpg4b0O0/T80zHhc=
+		3AjNS3fuQYRjUyhL38IEsNieavc=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lx+Jv8vkDte/KPWL6Bgb1UE+4WE=
+		lZjCYRvpzd2Gs37T92sPp4kLlhA=
 		</data>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9q/voF52k8c/Z1OsZpqjiQd6Gn4=
+		5F4SDbqxKtIjYEFT8lO7FSHg6qk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmWQcMz35KjRLO5+h2X0VsoIafA5l3mf1j7t8riYXIA=
+			3aeX/7nM4KDr3ZCIzlY5m6QeDIOjgH6yaCPn5VOrS/U=
 			</data>
 		</dict>
 		<key>Headers/SelfieCaptureLiveness-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DSqFF+y+FS6MM+0poPyZx2VD9Tcq1DiiHat6EDQqR1Q=
+			0Q5aP2r3SGafzt4srzemub4rliNBGDRXT0DghqU+ZSs=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -104,28 +104,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ut4OCVOKLfM1J4TkH3WB78ylL88KxFII5vDVSmHkEc=
+			UeBHi5IK4+20zJT9YGQhVdvZOH+978ADVLqMNi7x+Xw=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z12rzVVdGRRRqltY/V+faAOcUX4gjmxgrvO70VCV8HQ=
+			ie/ryyI1Tk2uEmTeDG1nwnp77fGzfbfB1lDxbzZatmk=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ut4OCVOKLfM1J4TkH3WB78ylL88KxFII5vDVSmHkEc=
+			UeBHi5IK4+20zJT9YGQhVdvZOH+978ADVLqMNi7x+Xw=
 			</data>
 		</dict>
 		<key>Modules/SelfieCaptureLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSVTre6UbvBZ8v99udvVO9rVe6aTYnmnc+EEV1IpLf8=
+			+CY6c6v1IZs8gvKnL8Lq8/IYWAmm52Y29Pd18dzUrnw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
