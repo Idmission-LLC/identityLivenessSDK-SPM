@@ -212694,14 +212694,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/ModelsRuntime.swift",
       "kind": "Array",
-      "offset": 205,
+      "offset": 622,
       "length": 206,
       "value": "[\"com.idmission.FingerPrintCaptureMedium\", \"com.idmission.FingerPrintCaptureLite\", \"com.idmission.FingerPrintCaptureVideoId\", \"com.idmission.FingerPrintCapture-Swift\"]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/ModelsRuntime.swift",
       "kind": "Array",
-      "offset": 467,
+      "offset": 884,
       "length": 150,
       "value": "[\"FingerPrintCaptureMedium\", \"FingerPrintCaptureLite\", \"FingerPrintCaptureVideoId\", \"FingerPrintCapture_Swift\"]"
     },

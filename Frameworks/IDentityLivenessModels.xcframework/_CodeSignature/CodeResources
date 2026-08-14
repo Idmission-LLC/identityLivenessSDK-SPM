@@ -30,11 +30,11 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessModels.framework/IDentityLivenessModels</key>
 		<data>
-		h6CN0doHN/xVkr5phxWB8R9HvFQ=
+		Tl9JDBpjdQ7X/FxOJ91njS/fSRs=
 		</data>
 		<key>ios-arm64/IDentityLivenessModels.framework/Info.plist</key>
 		<data>
-		zG9rubbRp+8F4XCT4vWqhh82v/Y=
+		mYagR2puA20LjPQyr8FBOJ2zzpg=
 		</data>
 		<key>ios-arm64/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>ios-arm64/IDentityLivenessModels.framework/_CodeSignature/CodeResources</key>
 		<data>
-		V8pWePJLBwmRaxklv74PtqW43/o=
+		kDfMfi+cgavhggsmS25CI1HIDrk=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		mDvpXAKGK71ISxG7/4LE7Kpc3F4=
+		KCuc3AdiB9FjEvDHwZO2Tvfe7qA=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessModels</key>
 		<data>
-		NxhNzKMce+VEy4A6pa6raf5UsHU=
+		ZYzMkc3c5Evbhblsuv3C0yC7Fak=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessModels.yml</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/IDentityLivenessModels</key>
 		<data>
-		icZyDUVd549m0vxPYVW/5YQC1To=
+		ApPv6cMELbtr3SJMqETM3g8c2qw=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Info.plist</key>
 		<data>
-		V6Nv5403lLmi3dbMGDAoKzHoCDs=
+		ofdOd7b5nD0M/9LZJHBW5Tyue2o=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -126,15 +126,15 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/_CodeSignature/CodeResources</key>
 		<data>
-		t014rrW8LmIpxWaFDSPrhygcRRo=
+		fuGfaVk6XDpIOo2eTNh4WuuzccQ=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		mDvpXAKGK71ISxG7/4LE7Kpc3F4=
+		KCuc3AdiB9FjEvDHwZO2Tvfe7qA=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessModels</key>
 		<data>
-		ggvi5WZ5HbRzdMUeEE3buNcXY4k=
+		dukH1n38UGQ1e/N/RxugznkzogI=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessModels.yml</key>
 		<data>
@@ -145,10 +145,6 @@
 	<dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			usvhhq5deoDTAOqr/eAp9CHiC4k=
-			</data>
 			<key>hash2</key>
 			<data>
 			qS2xaFPzg/6OwCYiTpRO/hInn2KfugKV+mmHZ+/MuT8=
@@ -156,10 +152,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dHyNN4MP8+W96Y2pGyibkXm26OI=
-			</data>
 			<key>hash2</key>
 			<data>
 			QU02n8+NessYkeJIDRXMBOVi4l2Gg+ywzTU7i4F7BOQ=
@@ -167,10 +159,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6+C7vtojqMFs2oSavDBiChX67JM=
-			</data>
 			<key>hash2</key>
 			<data>
 			JacTWjJ/jikwOquuAhP1dsqWT4uK043nFcwvQ4B7+zk=
@@ -178,10 +166,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/FaceMaskTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JcsLfyb7yQEoo6+WroTeTNjXV3Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			L12oomNX/HjdYGbOyJWLKdNUie11akwinBA0y47PVng=
@@ -189,10 +173,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6WMnbB/sD0C6MpRZDAG4M6iB7N4=
-			</data>
 			<key>hash2</key>
 			<data>
 			QosudDVO6/Dq2CI0O+Z+RFxdssHaPwLmQgY4P3UM1qQ=
@@ -200,10 +180,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Headers/IDentityLiteModels.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8kWOZ1DgTWQMsMbZfbHid4LBrFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			grKm4WqwF95b6DJz2GDGLEOj7mVCT4vP8KDfbIS15Kg=
@@ -211,32 +187,20 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/IDentityLivenessModels</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h6CN0doHN/xVkr5phxWB8R9HvFQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			AIzbWuytmJEnD+Y+wwG0/HtLTpktL/DOh5Zsrj9+e+k=
+			2ZomT9wptSM4JPj/nZHvrql1KaalSlkv6sCbSVaqoxc=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zG9rubbRp+8F4XCT4vWqhh82v/Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			LfWJk/3liXem/liJIqHaysQ8w6mhfJJtC3tT7IK5RaM=
+			raL6sno9u/+xPVhjcM7pNxEgMC2jHoz3QsoMc7NWDU8=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P84fLxbSUWPfvOUrFfRqdaOnFWk=
-			</data>
 			<key>hash2</key>
 			<data>
 			1hFSEaLnxJG6yPKuus+QpcAbzHOYV4hdzQ52DW98rXQ=
@@ -244,10 +208,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6LPNLS3tw2ZIaUeXKd+qjiKIX78=
-			</data>
 			<key>hash2</key>
 			<data>
 			QfdQJ+p9EQsaJIO8MMUofsK1mHVZNA6mJxNXy8cCutA=
@@ -255,10 +215,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6GRf4CfiAXL3OFYoKP8hHPTzgX4=
-			</data>
 			<key>hash2</key>
 			<data>
 			UOiQLCoYa17jw0JxeaOU3MBWx+8DYBeQN8zM394hGj8=
@@ -266,10 +222,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6LPNLS3tw2ZIaUeXKd+qjiKIX78=
-			</data>
 			<key>hash2</key>
 			<data>
 			QfdQJ+p9EQsaJIO8MMUofsK1mHVZNA6mJxNXy8cCutA=
@@ -277,10 +229,6 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WqZKYXWn26bAKfJJrimZwb+Loto=
-			</data>
 			<key>hash2</key>
 			<data>
 			Kxng78Ao19lDIYXXE1ExvGt86wPXb8AAQ4RjRqZMLpw=
@@ -288,43 +236,27 @@
 		</dict>
 		<key>ios-arm64/IDentityLivenessModels.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V8pWePJLBwmRaxklv74PtqW43/o=
-			</data>
 			<key>hash2</key>
 			<data>
-			dkeeGPq2KTxpv2MCcR88cpIcsp4/KvV1ekFg/wJ30EA=
+			CsrLH/e9vLvF5ANcKtqIb7RfMzCcx4IZsX1jerxuMwY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mDvpXAKGK71ISxG7/4LE7Kpc3F4=
-			</data>
 			<key>hash2</key>
 			<data>
-			IDsoNSDBsRlgV3u6LvMdns4iBal8VEgTuIf7Tmy8V28=
+			TYmOgftSto1d3nN0COIGDJNXC65FecuvDDC5Y7UzZhM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessModels</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NxhNzKMce+VEy4A6pa6raf5UsHU=
-			</data>
 			<key>hash2</key>
 			<data>
-			pS45axFuV+8vioGft7NB/uM0x0lp97pxosMoLgInEJM=
+			bMQy/NIKsWMnnbtIzpsrlOxEhyNxLhmS8b6f7UuKyLo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLivenessModels.yml</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ndtOfe6G0l/Qv0XF+XNH+FvPZtg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZxGs6QC1BDFcm/FHRQnMCD2Huk626ygfJoNewmLs8TQ=
@@ -332,10 +264,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/FaceBlendshapesDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			usvhhq5deoDTAOqr/eAp9CHiC4k=
-			</data>
 			<key>hash2</key>
 			<data>
 			qS2xaFPzg/6OwCYiTpRO/hInn2KfugKV+mmHZ+/MuT8=
@@ -343,10 +271,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/FaceFullRangeSparseTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dHyNN4MP8+W96Y2pGyibkXm26OI=
-			</data>
 			<key>hash2</key>
 			<data>
 			QU02n8+NessYkeJIDRXMBOVi4l2Gg+ywzTU7i4F7BOQ=
@@ -354,10 +278,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/FaceLandmarksDetectorTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6+C7vtojqMFs2oSavDBiChX67JM=
-			</data>
 			<key>hash2</key>
 			<data>
 			JacTWjJ/jikwOquuAhP1dsqWT4uK043nFcwvQ4B7+zk=
@@ -365,10 +285,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/FaceMaskTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JcsLfyb7yQEoo6+WroTeTNjXV3Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			L12oomNX/HjdYGbOyJWLKdNUie11akwinBA0y47PVng=
@@ -376,10 +292,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/FocusFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6WMnbB/sD0C6MpRZDAG4M6iB7N4=
-			</data>
 			<key>hash2</key>
 			<data>
 			QosudDVO6/Dq2CI0O+Z+RFxdssHaPwLmQgY4P3UM1qQ=
@@ -387,10 +299,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Headers/IDentityLiteModels.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8kWOZ1DgTWQMsMbZfbHid4LBrFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			grKm4WqwF95b6DJz2GDGLEOj7mVCT4vP8KDfbIS15Kg=
@@ -398,32 +306,20 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/IDentityLivenessModels</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			icZyDUVd549m0vxPYVW/5YQC1To=
-			</data>
 			<key>hash2</key>
 			<data>
-			AM+qcjteoBtiMSjLXgUsUVyK1XQuNDL0Yo1677grV/M=
+			GBwMwD1ucivjVBHsLqeuu6kLQysEBw2hLybZHPsGJ9U=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V6Nv5403lLmi3dbMGDAoKzHoCDs=
-			</data>
 			<key>hash2</key>
 			<data>
-			lOXVa1lkNVdF78rpBRHM9eAG+/6mYSwnMBB8LM2vXio=
+			mHEtqPVEBjjDEfyyepDFSjcYM/3K3UIpPpWl25OU2hY=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P84fLxbSUWPfvOUrFfRqdaOnFWk=
-			</data>
 			<key>hash2</key>
 			<data>
 			1hFSEaLnxJG6yPKuus+QpcAbzHOYV4hdzQ52DW98rXQ=
@@ -431,10 +327,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pP8nAOJFH5GCzKK74r1aV/iujHk=
-			</data>
 			<key>hash2</key>
 			<data>
 			+RBXuZK+0jTeULingrnRVZf3UmZ/VW1swXbsClIQlo0=
@@ -442,10 +334,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZfRFeqtGnH77dfZJBlquUZ7+eCk=
-			</data>
 			<key>hash2</key>
 			<data>
 			jLUBJAQ9XK3eBmKMU3C0voaPvtiofXAkLn2ownDGgl4=
@@ -453,10 +341,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/Modules/IDentityLivenessModels.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pP8nAOJFH5GCzKK74r1aV/iujHk=
-			</data>
 			<key>hash2</key>
 			<data>
 			+RBXuZK+0jTeULingrnRVZf3UmZ/VW1swXbsClIQlo0=
@@ -464,10 +348,6 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/PassiveFaceTrainingModel_UNIQUE_KEY_ID_7043_20260623023319.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WqZKYXWn26bAKfJJrimZwb+Loto=
-			</data>
 			<key>hash2</key>
 			<data>
 			Kxng78Ao19lDIYXXE1ExvGt86wPXb8AAQ4RjRqZMLpw=
@@ -475,43 +355,27 @@
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLivenessModels.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t014rrW8LmIpxWaFDSPrhygcRRo=
-			</data>
 			<key>hash2</key>
 			<data>
-			dyWtA04AR0VAxJIS+y6kXUha1iFxGTWy3VfuyRCBwkc=
+			SrzuKBH3CZJ5io9BV1HgXDOryY7XYokUio3Ne4WvOMg=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mDvpXAKGK71ISxG7/4LE7Kpc3F4=
-			</data>
 			<key>hash2</key>
 			<data>
-			IDsoNSDBsRlgV3u6LvMdns4iBal8VEgTuIf7Tmy8V28=
+			TYmOgftSto1d3nN0COIGDJNXC65FecuvDDC5Y7UzZhM=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/DWARF/IDentityLivenessModels</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ggvi5WZ5HbRzdMUeEE3buNcXY4k=
-			</data>
 			<key>hash2</key>
 			<data>
-			iBSsKWHjtUjsxWHR/TnVefNNTQEOIOAkuZb5MJOibNM=
+			WbUK71FtPQgN+g//Z2KcpzNzj6EfxQVjFG5GA1AoDMQ=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLivenessModels.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLivenessModels.yml</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VqHdfbqC5KdgYqYYmO6yVMsPMUs=
-			</data>
 			<key>hash2</key>
 			<data>
 			FPcIT2ixIy39maHtYItvf33AXzLY0RNO4r/+Bh0Qq40=
