@@ -26340,6 +26340,672 @@
           },
           {
             "kind": "Var",
+            "name": "agentCountry",
+            "printedName": "agentCountry",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV12agentCountrySSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "posTransactionDateTime",
+            "printedName": "posTransactionDateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV22posTransactionDateTimeSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subDocType",
+            "printedName": "subDocType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV10subDocTypeSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionType",
+            "printedName": "transactionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV15transactionTypeSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "channel",
+            "printedName": "channel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7channelSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestSource",
+            "printedName": "requestSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV13requestSourceSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "metadata",
             "printedName": "metadata",
             "children": [
@@ -26563,7 +27229,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(idToken:uniqueRequestId:clientTraceId:clientRequestID:manualReviewRequired:bypassAgeValidation:deDuplicationRequired:bypassNameMatching:postDataAPIRequired:postDataAPIURL:sendMetaDataInPost:sendInputImagesInPost:sendProcessedImagesInPost:needImmediateResponse:deduplicationSynchronous:verifyDataWithHost:idBackImageRequired:stripSpecialCharacters:idImageResolutionCheck:deDupDataRequiredInResponse:deDupManualReviewRequired:postDataOnReviewRequired:postDataOnReviewAPIURL:paymentGateway:gpsCoordinates:piiExclusion:detectLiveness:advancedTamperDetection:detectLabel:detectClosedEyes:sendSignatureFromIdInResponse:sendDocumentIdInResponse:customerDataMatchConfig:sendProcessedImagesInResponse:sendInputImagesInResponse:)",
+            "printedName": "init(idToken:uniqueRequestId:clientTraceId:clientRequestID:manualReviewRequired:bypassAgeValidation:deDuplicationRequired:bypassNameMatching:postDataAPIRequired:postDataAPIURL:sendMetaDataInPost:sendInputImagesInPost:sendProcessedImagesInPost:needImmediateResponse:deduplicationSynchronous:verifyDataWithHost:idBackImageRequired:stripSpecialCharacters:idImageResolutionCheck:deDupDataRequiredInResponse:deDupManualReviewRequired:postDataOnReviewRequired:postDataOnReviewAPIURL:paymentGateway:gpsCoordinates:piiExclusion:detectLiveness:advancedTamperDetection:detectLabel:detectClosedEyes:sendSignatureFromIdInResponse:sendDocumentIdInResponse:customerDataMatchConfig:sendProcessedImagesInResponse:sendInputImagesInResponse:agentCountry:posTransactionDateTime:subDocType:transactionType:channel:requestSource:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27087,11 +27753,101 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7idToken15uniqueRequestId011clientTraceM00nL2ID20manualReviewRequired19bypassAgeValidation013deDuplicationS00T12NameMatching04postH11APIRequired04postH6APIURL08sendMetaH6InPost21sendInputImagesInPost25sendProcessedImagesInPost21needImmediateResponse24deduplicationSynchronous06verifyH8WithHost0i9BackImageS022stripSpecialCharacters0I20ImageResolutionCheck0w3DuphS10InResponse0w9DupManualrS004posth2OnrS004posth2OnR6APIURL14paymentGateway14gpsCoordinates12piiExclusion06detectB023advancedTamperDetection11detectLabel16detectClosedEyes017sendSignatureFromM10InResponse012sendDocumentM10InResponse08customerH11MatchConfig29sendProcessedImagesInResponse25sendInputImagesInResponseACSSSg_SSA11_A11_AC06ManualrS0OSgAC06BypassuV0OSgAC02DexS0OSgAC06BypassyZ0OSgAC04PostH11APIRequiredOSgA11_AC08SendMetaH6InPostOSgAC21SendInputImagesInPostOSgAC25SendProcessedImagesInPostOSgAC21NeedImmediateResponseOSgAC24DeduplicationSynchronousOSgAC06VerifyH8WithHostOSgAC0m9BackImageS0OSgAC22StripSpecialCharactersOSgAC0M20ImageResolutionCheckOSgAC05DeDuphS10InResponseOSgAC011DeDupManualrS0OSgAC04Posth2OnrS0OSgA11_A11_A11_A11_AC06DetectB0OSgAC23AdvancedTamperDetectionOSgAC11DetectLabelOSgAC16DetectClosedEyesOSgAC017SendSignatureFromM10InResponseOSgAC012SendDocumentM10InResponseOSgAA0eH11MatchConfigVSgAC29SendProcessedImagesInResponseOSgAC25SendInputImagesInResponseOSgtcfc",
-            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7idToken15uniqueRequestId011clientTraceM00nL2ID20manualReviewRequired19bypassAgeValidation013deDuplicationS00T12NameMatching04postH11APIRequired04postH6APIURL08sendMetaH6InPost21sendInputImagesInPost25sendProcessedImagesInPost21needImmediateResponse24deduplicationSynchronous06verifyH8WithHost0i9BackImageS022stripSpecialCharacters0I20ImageResolutionCheck0w3DuphS10InResponse0w9DupManualrS004posth2OnrS004posth2OnR6APIURL14paymentGateway14gpsCoordinates12piiExclusion06detectB023advancedTamperDetection11detectLabel16detectClosedEyes017sendSignatureFromM10InResponse012sendDocumentM10InResponse08customerH11MatchConfig29sendProcessedImagesInResponse25sendInputImagesInResponseACSSSg_SSA11_A11_AC06ManualrS0OSgAC06BypassuV0OSgAC02DexS0OSgAC06BypassyZ0OSgAC04PostH11APIRequiredOSgA11_AC08SendMetaH6InPostOSgAC21SendInputImagesInPostOSgAC25SendProcessedImagesInPostOSgAC21NeedImmediateResponseOSgAC24DeduplicationSynchronousOSgAC06VerifyH8WithHostOSgAC0m9BackImageS0OSgAC22StripSpecialCharactersOSgAC0M20ImageResolutionCheckOSgAC05DeDuphS10InResponseOSgAC011DeDupManualrS0OSgAC04Posth2OnrS0OSgA11_A11_A11_A11_AC06DetectB0OSgAC23AdvancedTamperDetectionOSgAC11DetectLabelOSgAC16DetectClosedEyesOSgAC017SendSignatureFromM10InResponseOSgAC012SendDocumentM10InResponseOSgAA0eH11MatchConfigVSgAC29SendProcessedImagesInResponseOSgAC25SendInputImagesInResponseOSgtcfc",
+            "usr": "s:19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7idToken15uniqueRequestId011clientTraceM00nL2ID20manualReviewRequired19bypassAgeValidation013deDuplicationS00T12NameMatching04postH11APIRequired04postH6APIURL08sendMetaH6InPost21sendInputImagesInPost25sendProcessedImagesInPost21needImmediateResponse24deduplicationSynchronous06verifyH8WithHost0i9BackImageS022stripSpecialCharacters0I20ImageResolutionCheck0w3DuphS10InResponse0w9DupManualrS004posth2OnrS004posth2OnR6APIURL14paymentGateway14gpsCoordinates12piiExclusion06detectB023advancedTamperDetection11detectLabel16detectClosedEyes017sendSignatureFromM10InResponse012sendDocumentM10InResponse08customerH11MatchConfig29sendProcessedImagesInResponse25sendInputImagesInResponse12agentCountry22posTransactionDateTime10subDocType15transactionType7channel13requestSourceACSSSg_SSA17_A17_AC06ManualrS0OSgAC06BypassuV0OSgAC02DexS0OSgAC06BypassyZ0OSgAC04PostH11APIRequiredOSgA17_AC08SendMetaH6InPostOSgAC21SendInputImagesInPostOSgAC25SendProcessedImagesInPostOSgAC21NeedImmediateResponseOSgAC24DeduplicationSynchronousOSgAC06VerifyH8WithHostOSgAC0m9BackImageS0OSgAC22StripSpecialCharactersOSgAC0M20ImageResolutionCheckOSgAC05DeDuphS10InResponseOSgAC011DeDupManualrS0OSgAC04Posth2OnrS0OSgA17_A17_A17_A17_AC06DetectB0OSgAC23AdvancedTamperDetectionOSgAC11DetectLabelOSgAC16DetectClosedEyesOSgAC017SendSignatureFromM10InResponseOSgAC012SendDocumentM10InResponseOSgAA0eH11MatchConfigVSgAC29SendProcessedImagesInResponseOSgAC25SendInputImagesInResponseOSgA17_A17_A17_A17_A17_A17_tcfc",
+            "mangledName": "$s19IDentityLivenessSDK33AdditionalCustomerWFlagCommonDataV7idToken15uniqueRequestId011clientTraceM00nL2ID20manualReviewRequired19bypassAgeValidation013deDuplicationS00T12NameMatching04postH11APIRequired04postH6APIURL08sendMetaH6InPost21sendInputImagesInPost25sendProcessedImagesInPost21needImmediateResponse24deduplicationSynchronous06verifyH8WithHost0i9BackImageS022stripSpecialCharacters0I20ImageResolutionCheck0w3DuphS10InResponse0w9DupManualrS004posth2OnrS004posth2OnR6APIURL14paymentGateway14gpsCoordinates12piiExclusion06detectB023advancedTamperDetection11detectLabel16detectClosedEyes017sendSignatureFromM10InResponse012sendDocumentM10InResponse08customerH11MatchConfig29sendProcessedImagesInResponse25sendInputImagesInResponse12agentCountry22posTransactionDateTime10subDocType15transactionType7channel13requestSourceACSSSg_SSA17_A17_AC06ManualrS0OSgAC06BypassuV0OSgAC02DexS0OSgAC06BypassyZ0OSgAC04PostH11APIRequiredOSgA17_AC08SendMetaH6InPostOSgAC21SendInputImagesInPostOSgAC25SendProcessedImagesInPostOSgAC21NeedImmediateResponseOSgAC24DeduplicationSynchronousOSgAC06VerifyH8WithHostOSgAC0m9BackImageS0OSgAC22StripSpecialCharactersOSgAC0M20ImageResolutionCheckOSgAC05DeDuphS10InResponseOSgAC011DeDupManualrS0OSgAC04Posth2OnrS0OSgA17_A17_A17_A17_AC06DetectB0OSgAC23AdvancedTamperDetectionOSgAC11DetectLabelOSgAC16DetectClosedEyesOSgAC017SendSignatureFromM10InResponseOSgAC012SendDocumentM10InResponseOSgAA0eH11MatchConfigVSgAC29SendProcessedImagesInResponseOSgAC25SendInputImagesInResponseOSgA17_A17_A17_A17_A17_A17_tcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -37997,6 +38753,117 @@
           },
           {
             "kind": "Var",
+            "name": "hairColor",
+            "printedName": "hairColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV9hairColorSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "height",
             "printedName": "height",
             "children": [
@@ -38544,6 +39411,450 @@
                 "declKind": "Accessor",
                 "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV21additionalNamesNonEngSSSgvM",
                 "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV21additionalNamesNonEngSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV10nameNonEngSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstNameNonEng",
+            "printedName": "firstNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV15firstNameNonEngSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastNameNonEng",
+            "printedName": "lastNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV14lastNameNonEngSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameNonEng",
+            "printedName": "middleNameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK36PersonalCustomerAutofillResponseDataV16middleNameNonEngSSSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -86322,6 +87633,1000 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ParsedPoaAddress",
+        "printedName": "ParsedPoaAddress",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "streetName",
+            "printedName": "streetName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10streetNameSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "streetNumber",
+            "printedName": "streetNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12streetNumberSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unit",
+            "printedName": "unit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4unitSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "district",
+            "printedName": "district",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8districtSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "municipality",
+            "printedName": "municipality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV12municipalitySSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4citySSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "province",
+            "printedName": "province",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV8provinceSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postalCode",
+            "printedName": "postalCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV10postalCodeSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ParsedPoaAddress",
+                "printedName": "IDentityLivenessSDK.ParsedPoaAddress",
+                "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "IDentityLivenessSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV6encode2toys7Encoder_p_tKF",
+            "moduleName": "IDentityLivenessSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV",
+        "mangledName": "$s19IDentityLivenessSDK16ParsedPoaAddressV",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDentityLivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FingerPrint",
         "printedName": "FingerPrint",
         "children": [
@@ -98209,8 +100514,8 @@
           },
           {
             "kind": "Var",
-            "name": "employee",
-            "printedName": "employee",
+            "name": "companyData",
+            "printedName": "companyData",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -98228,8 +100533,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvp",
-            "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvp",
+            "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvp",
+            "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvp",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -98260,8 +100565,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvg",
-                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvg",
+                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvg",
+                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvg",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -98292,8 +100597,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvs",
-                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvs",
+                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvs",
+                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvs",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -98310,8 +100615,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvM",
-                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV8employeeAA12EmployeeDataVSgvM",
+                "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvM",
+                "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV11companyDataAA08EmployeeH0VSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -98321,7 +100626,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(customerData:additionalData:employee:)",
+            "printedName": "init(customerData:additionalData:companyData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -98358,8 +100663,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV12customerData010additionalH08employeeAcA0dehF0V_AA010Additionald6CommonH0VAA08EmployeeH0VSgtcfc",
-            "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV12customerData010additionalH08employeeAcA0dehF0V_AA010Additionald6CommonH0VAA08EmployeeH0VSgtcfc",
+            "usr": "s:19IDentityLivenessSDK21CustomerVerifyRequestV12customerData010additionalH007companyH0AcA0dehF0V_AA010Additionald6CommonH0VAA08EmployeeH0VSgtcfc",
+            "mangledName": "$s19IDentityLivenessSDK21CustomerVerifyRequestV12customerData010additionalH007companyH0AcA0dehF0V_AA010Additionald6CommonH0VAA08EmployeeH0VSgtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -108720,6 +111025,117 @@
                 "declKind": "Accessor",
                 "usr": "s:19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV8lastNameSSSgvM",
                 "mangledName": "$s19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV8lastNameSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK47PersonalCustomerValidateIdFaceMatchResponseDataV10nameNonEngSSSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -127206,6 +129622,450 @@
           },
           {
             "kind": "Var",
+            "name": "additionalCustomerName",
+            "printedName": "additionalCustomerName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV22additionalCustomerNameSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rfc",
+            "printedName": "rfc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rfcSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rmu",
+            "printedName": "rmu",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV3rmuSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parsedPoaAddress",
+            "printedName": "parsedPoaAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLivenessSDK.ParsedPoaAddress?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParsedPoaAddress",
+                    "printedName": "IDentityLivenessSDK.ParsedPoaAddress",
+                    "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLivenessSDK.ParsedPoaAddress?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ParsedPoaAddress",
+                        "printedName": "IDentityLivenessSDK.ParsedPoaAddress",
+                        "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLivenessSDK.ParsedPoaAddress?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ParsedPoaAddress",
+                        "printedName": "IDentityLivenessSDK.ParsedPoaAddress",
+                        "usr": "s:19IDentityLivenessSDK16ParsedPoaAddressV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV16parsedPoaAddressAA06ParsedhI0VSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "addressMatch",
             "printedName": "addressMatch",
             "children": [
@@ -128094,6 +130954,228 @@
           },
           {
             "kind": "Var",
+            "name": "firstNameMatch",
+            "printedName": "firstNameMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14firstNameMatchSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastNameMatch",
+            "printedName": "lastNameMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV13lastNameMatchSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fistNameMatchScore",
             "printedName": "fistNameMatchScore",
             "children": [
@@ -128316,6 +131398,117 @@
           },
           {
             "kind": "Var",
+            "name": "firstNameMatchWithInputData",
+            "printedName": "firstNameMatchWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023firstNameMatchWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fistNameMatchScoreWithInputData",
             "printedName": "fistNameMatchScoreWithInputData",
             "children": [
@@ -128427,6 +131620,117 @@
           },
           {
             "kind": "Var",
+            "name": "lastNameMatchWithInputData",
+            "printedName": "lastNameMatchWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV022lastNameMatchWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "lastNameMatchScoreWithInputData",
             "printedName": "lastNameMatchScoreWithInputData",
             "children": [
@@ -128530,6 +131834,894 @@
                 "declKind": "Accessor",
                 "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV027lastNameMatchScoreWithInputE0SSSgvM",
                 "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV027lastNameMatchScoreWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameMatch",
+            "printedName": "middleNameMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV15middleNameMatchSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameMatchScore",
+            "printedName": "middleNameMatchScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV20middleNameMatchScoreSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameMatch",
+            "printedName": "nameMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV9nameMatchSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameMatchScore",
+            "printedName": "nameMatchScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV14nameMatchScoreSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameMatchWithInputData",
+            "printedName": "middleNameMatchWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV024middleNameMatchWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleNameMatchScoreWithInputData",
+            "printedName": "middleNameMatchScoreWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV029middleNameMatchScoreWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameMatchWithInputData",
+            "printedName": "nameMatchWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV018nameMatchWithInputE0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameMatchScoreWithInputData",
+            "printedName": "nameMatchScoreWithInputData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK24POAExtractedDataResponseV023nameMatchScoreWithInputE0SSSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -141287,6 +145479,117 @@
                 "declKind": "Accessor",
                 "usr": "s:19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV8lastNameSSSgvM",
                 "mangledName": "$s19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV8lastNameSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameNonEng",
+            "printedName": "nameNonEng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK38PersonalCustomerValidateIdResponseDataV10nameNonEngSSSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -211875,28 +216178,28 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 20483,
+      "offset": 21393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 25928,
+      "offset": 27538,
       "length": 18,
       "value": "\"IntrinsicLoginID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 25982,
+      "offset": 27592,
       "length": 21,
       "value": "\"IntrinsicMerchantID\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Enroll Request\/AdditionalCustomerWFlagCommonData.swift",
       "kind": "StringLiteral",
-      "offset": 26039,
+      "offset": 27649,
       "length": 21,
       "value": "\"IntrinsicSDKVersion\""
     },

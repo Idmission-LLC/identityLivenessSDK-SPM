@@ -2,8 +2,8 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-liveness/Build/Products/Release-iphonesimulator/SelfieCaptureLiveness.framework/SelfieCaptureLiveness'
 relocations:
-  - { offset: 0x857E0, size: 0x8, addend: 0x0, symName: _SelfieCaptureLivenessVersionString, symObjAddr: 0x0, symBinAddr: 0x2AA80, symSize: 0x0 }
-  - { offset: 0x85815, size: 0x8, addend: 0x0, symName: _SelfieCaptureLivenessVersionNumber, symObjAddr: 0x40, symBinAddr: 0x2AAC0, symSize: 0x0 }
+  - { offset: 0x857E0, size: 0x8, addend: 0x0, symName: _SelfieCaptureLivenessVersionString, symObjAddr: 0x0, symBinAddr: 0x2AA90, symSize: 0x0 }
+  - { offset: 0x85815, size: 0x8, addend: 0x0, symName: _SelfieCaptureLivenessVersionNumber, symObjAddr: 0x40, symBinAddr: 0x2AAD0, symSize: 0x0 }
   - { offset: 0x85AE2, size: 0x8, addend: 0x0, symName: '_$s21SelfieCaptureLiveness7KeyInfoVSgWOy', symObjAddr: 0x30, symBinAddr: 0x1630, symSize: 0x30 }
   - { offset: 0x85AF6, size: 0x8, addend: 0x0, symName: '_$s21SelfieCaptureLiveness7KeyInfoVSgWOe', symObjAddr: 0xA0, symBinAddr: 0x16A0, symSize: 0x30 }
   - { offset: 0x85B0A, size: 0x8, addend: 0x0, symName: '_$s21SelfieCaptureLiveness21TrainingModelResponseVSgWOy', symObjAddr: 0x130, symBinAddr: 0x1730, symSize: 0x30 }
