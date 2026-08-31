@@ -1,21 +1,379 @@
-MIT License
+IDMISSION SOFTWARE LICENSE AGREEMENT
+IDentity Liveness SDK for iOS
 
-Copyright (c) 2026 IDmission
+Copyright (c) 2026 IDmission, LLC. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+NOTICE TO USER: THIS IS A LEGAL AGREEMENT (the "Agreement") BETWEEN YOU, EITHER
+AN INDIVIDUAL OR A SINGLE LEGAL ENTITY ("Licensee"), AND IDMISSION, LLC
+("IDmission"). THE SOFTWARE DISTRIBUTED THROUGH THIS REPOSITORY IS PROPRIETARY
+AND CONFIDENTIAL. IT IS LICENSED, NOT SOLD. BY DOWNLOADING, RESOLVING,
+INSTALLING, LINKING, COPYING, OR OTHERWISE USING THE SOFTWARE, LICENSEE AGREES
+TO BE BOUND BY THIS AGREEMENT. IF LICENSEE DOES NOT AGREE TO THESE TERMS,
+LICENSEE MUST NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. DEFINITIONS
+
+1.1 "Software" means the IDentity Liveness SDK for iOS distributed through this
+    repository, including without limitation all binary frameworks
+    (.xcframework bundles), the Swift package manifest and targets, embedded
+    machine-learning models and model weights, configuration data, headers,
+    module interfaces, sample code, and accompanying Documentation, together
+    with any updates, upgrades, patches, bug fixes, or new versions that
+    IDmission may make available.
+
+1.2 "Commercial Agreement" means a separate written master services,
+    subscription, license, trial, or evaluation agreement executed between
+    Licensee and IDmission that expressly authorizes Licensee's use of the
+    Software.
+
+1.3 "Application" means Licensee's own mobile application into which the
+    Software is embedded in accordance with the Documentation.
+
+1.4 "IDmission Services" means the hosted IDmission identity verification
+    platform and its application programming interfaces with which the
+    Software communicates.
+
+1.5 "Credentials" means the client identifiers, client secrets, user names,
+    passwords, access tokens, and other authentication material issued by
+    IDmission to Licensee.
+
+1.6 "Documentation" means the README distributed with the Software and any
+    other technical or integration documentation that IDmission provides to
+    Licensee.
+
+1.7 "End User" means a natural person whose identity, biometric, or document
+    data is captured or processed through the Application using the Software.
+
+
+2. NO LICENSE WITHOUT A COMMERCIAL AGREEMENT
+
+2.1 The Software is published in this repository solely as a distribution
+    convenience for IDmission's licensed customers and for use with the Swift
+    Package Manager. Publication of the Software does not constitute an offer
+    of, and does not grant, any license.
+
+2.2 No right or license, express or implied, is granted to any person by
+    reason of cloning, forking, downloading, resolving, mirroring, or
+    otherwise obtaining a copy of the Software. Any use of the Software
+    without a valid Commercial Agreement is unauthorized and constitutes
+    infringement of IDmission's intellectual property rights.
+
+2.3 Subject to Licensee's continuous compliance with this Agreement, the terms
+    of a valid and current Commercial Agreement, and payment of all applicable
+    fees, IDmission grants Licensee a limited, non-exclusive, non-transferable,
+    non-sublicensable, revocable license, for the term of the Commercial
+    Agreement, to:
+
+    (a) download, install, and internally use the Software for the purpose of
+        developing and testing the Application;
+
+    (b) embed the Software, in unmodified binary form, into the Application;
+
+    (c) reproduce and distribute the Software solely as an integral, embedded,
+        object-code component of the Application, through the Apple App Store,
+        TestFlight, or Licensee's own enterprise distribution channels; and
+
+    (d) reproduce and use the Documentation internally for the purposes set out
+        above.
+
+2.4 The license in Section 2.3 is limited to the SDK flavours, features,
+    transaction volumes, environments, applications, and territories specified
+    in the Commercial Agreement. Any use beyond that scope requires IDmission's
+    prior written consent.
+
+
+3. RESTRICTIONS
+
+Except to the extent expressly permitted by this Agreement or by applicable law
+that cannot be excluded by contract, Licensee shall not, and shall not permit
+any third party to:
+
+3.1 reverse engineer, decompile, disassemble, or otherwise attempt to derive
+    the source code, algorithms, model architectures, or underlying structure
+    of the Software. Where applicable law grants Licensee a non-waivable right
+    to decompile for interoperability, Licensee shall first request the
+    necessary interface information from IDmission in writing and allow a
+    reasonable time to respond;
+
+3.2 modify, adapt, translate, patch, or create derivative works of the
+    Software, or alter, instrument, or repackage any binary framework;
+
+3.3 extract, isolate, copy, retrain, fine-tune, distill, or otherwise reuse the
+    machine-learning models, model weights, or embedded data contained in the
+    Software, whether for the training or evaluation of any other model or for
+    any other purpose;
+
+3.4 separate the individual frameworks contained in the Software for standalone
+    use, or distribute, publish, or make available any part of the Software
+    other than as an embedded component of the Application;
+
+3.5 sell, resell, rent, lease, lend, sublicense, assign, distribute, or
+    otherwise transfer the Software, or make it available on a service bureau,
+    timesharing, hosting, software-as-a-service, or similar basis, or otherwise
+    make the Software's functionality available to any third party except as
+    embedded in the Application;
+
+3.6 use the Software to design, develop, train, or market any product or
+    service that competes with the Software or the IDmission Services;
+
+3.7 conduct, publish, or disclose any benchmark, accuracy, performance, or
+    comparative test of the Software without IDmission's prior written consent;
+
+3.8 remove, obscure, or alter any copyright, trademark, confidentiality, or
+    other proprietary notice contained in or displayed by the Software;
+
+3.9 circumvent, disable, or interfere with any Credential, entitlement,
+    licensing, integrity, anti-tamper, or security mechanism of the Software or
+    the IDmission Services, or use the Software on a device that has been
+    jailbroken for the purpose of such circumvention;
+
+3.10 use the Software in violation of any applicable law or regulation, or for
+     any unlawful, fraudulent, discriminatory, or deceptive purpose; or
+
+3.11 use IDmission's names, logos, or trademarks except as expressly permitted
+     in writing by IDmission.
+
+
+4. OWNERSHIP AND CONFIDENTIALITY
+
+4.1 The Software is licensed, not sold. IDmission and its licensors retain all
+    right, title, and interest in and to the Software, including all
+    intellectual property rights therein. No rights are granted other than
+    those expressly stated in this Agreement.
+
+4.2 The Software, its architecture, its machine-learning models, and its
+    non-public interfaces constitute confidential information and trade secrets
+    of IDmission. Licensee shall protect them using at least the degree of care
+    it uses to protect its own confidential information of like importance, and
+    in no event less than a reasonable degree of care, and shall limit access
+    to those of its employees and contractors who need access for the purposes
+    permitted by this Agreement and who are bound by written obligations of
+    confidentiality no less protective than those in this Section 4.
+
+
+5. CREDENTIALS AND ACCESS TO THE IDMISSION SERVICES
+
+5.1 The Software is inoperable without valid Credentials issued by IDmission.
+    Credentials are issued per customer, are confidential, and must not be
+    shared, transferred, or disclosed to any third party.
+
+5.2 Licensee shall generate access tokens on Licensee's own backend systems and
+    shall not embed client identifiers, client secrets, user names, or
+    passwords in the Application binary or in any client-side code or
+    configuration.
+
+5.3 Licensee is responsible for all activity conducted using its Credentials
+    and shall notify IDmission promptly upon becoming aware of any unauthorized
+    use or suspected compromise.
+
+5.4 Use of the IDmission Services is governed by the Commercial Agreement and
+    by IDmission's then-current service terms and privacy policy, available at
+    https://www.idmission.com/privacy.
+
+
+6. END-USER DATA, BIOMETRICS, AND COMPLIANCE
+
+6.1 Licensee acknowledges that the Software captures and processes sensitive
+    personal data, which may include facial imagery and liveness signals and,
+    where enabled, geolocation data.
+
+6.2 As between the parties, Licensee is responsible for determining the lawful
+    basis for such processing and for providing all required notices to, and
+    obtaining all required consents from, End Users prior to any capture. This
+    includes, where applicable, separate, explicit, written informed consent
+    for the collection of biometric identifiers.
+
+6.3 Licensee shall comply with all laws applicable to its use of the Software,
+    including without limitation the EU and UK General Data Protection
+    Regulations, the Illinois Biometric Information Privacy Act and comparable
+    state biometric statutes, the California Consumer Privacy Act as amended,
+    India's Digital Personal Data Protection Act, Mexico's Federal Law on
+    Protection of Personal Data Held by Private Parties, and all applicable
+    know-your-customer, anti-money-laundering, and sectoral regulations.
+
+6.4 Licensee shall maintain a published privacy notice covering its use of the
+    Software and shall honor End User rights and data retention and deletion
+    obligations under applicable law.
+
+6.5 Licensee is responsible for its own Apple App Store compliance, including
+    accurate privacy nutrition labels, Info.plist purpose strings, and its
+    application-level privacy manifest.
+
+6.6 IDmission's processing of personal data on Licensee's behalf is governed by
+    the Commercial Agreement and any applicable data processing addendum.
+
+
+7. THIRD-PARTY COMPONENTS
+
+7.1 The Software incorporates third-party components that remain subject to
+    their own license terms. Those terms govern with respect to the applicable
+    component and, to the extent of any conflict, prevail over this Agreement
+    solely as to that component. As of the date of this release these include:
+
+    - TensorFlow Lite, licensed under the Apache License, Version 2.0
+    - SWXMLHash, licensed under the MIT License
+    - A compression component distributed under zlib-equivalent terms, the
+      notice for which is reproduced in the LICENSE file inside the
+      IDentityLivenessSDK.framework bundle
+
+7.2 Nothing in this Agreement limits any right Licensee has under the license
+    of any such open-source component.
+
+
+8. UPDATES, VERSIONS, AND SUPPORT
+
+8.1 IDmission has no obligation to provide updates, upgrades, or new versions.
+    Any that IDmission does provide form part of the Software and are governed
+    by this Agreement unless accompanied by separate terms.
+
+8.2 Technical support, service levels, and maintenance, if any, are as set out
+    in the Commercial Agreement.
+
+8.3 IDmission may designate versions of the Software as deprecated or
+    end-of-life. Licensee shall keep its integration reasonably current, and
+    IDmission may discontinue support for, or server-side compatibility with,
+    superseded versions.
+
+
+9. TERM AND TERMINATION
+
+9.1 This Agreement takes effect when Licensee first downloads or uses the
+    Software and continues until terminated.
+
+9.2 This Agreement terminates automatically and immediately upon the expiry or
+    termination of the Commercial Agreement, or upon Licensee's breach of any
+    term of this Agreement. IDmission may also terminate this Agreement on
+    written notice if Licensee has no Commercial Agreement in force.
+
+9.3 Upon termination, Licensee shall immediately cease all use of the Software,
+    remove it from all Applications under active development, cease
+    distribution of any Application containing the Software, remove the
+    Software from any Application in its next commercially reasonable release,
+    and delete or destroy all copies of the Software in its possession or
+    control. Licensee shall certify such deletion in writing upon request.
+
+9.4 Sections 3, 4, 6, 7, 9.3, 9.4, 10, 11, 12, 13, 14, and 15 survive
+    termination.
+
+
+10. DISCLAIMER OF WARRANTIES
+
+10.1 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+     ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IDMISSION AND
+     ITS LICENSORS DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED,
+     STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+     WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+     ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT.
+
+10.2 IDMISSION DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED,
+     ERROR-FREE, OR SECURE, OR THAT IT WILL OPERATE WITH ANY PARTICULAR DEVICE,
+     OPERATING SYSTEM VERSION, OR THIRD-PARTY SOFTWARE.
+
+10.3 LICENSEE ACKNOWLEDGES THAT FACE DETECTION, FACE MATCHING, AND LIVENESS
+     DETECTION ARE PROBABILISTIC TECHNIQUES THAT PRODUCE FALSE POSITIVES AND
+     FALSE NEGATIVES, AND THAT THEIR ACCURACY VARIES WITH IMAGE QUALITY,
+     LIGHTING, DEVICE HARDWARE, AND END-USER DEMOGRAPHICS. NO OUTPUT OF THE
+     SOFTWARE IS A GUARANTEE OF THE IDENTITY OF A PERSON.
+     LICENSEE SHALL NOT RELY SOLELY ON THE SOFTWARE FOR ANY DECISION PRODUCING
+     LEGAL OR SIMILARLY SIGNIFICANT EFFECTS FOR AN END USER, AND SHALL
+     IMPLEMENT APPROPRIATE HUMAN REVIEW, FALLBACK, AND APPEAL MECHANISMS.
+
+
+11. LIMITATION OF LIABILITY
+
+11.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+     IDMISSION OR ITS LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+     SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF
+     PROFITS, REVENUE, DATA, GOODWILL, OR BUSINESS INTERRUPTION, ARISING OUT OF
+     OR RELATING TO THIS AGREEMENT OR THE SOFTWARE, WHETHER IN CONTRACT, TORT,
+     STRICT LIABILITY, OR OTHERWISE, AND WHETHER OR NOT IDMISSION HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IDMISSION'S TOTAL
+     AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE
+     SOFTWARE SHALL NOT EXCEED THE AMOUNTS ACTUALLY PAID BY LICENSEE TO
+     IDMISSION UNDER THE COMMERCIAL AGREEMENT FOR THE SOFTWARE IN THE TWELVE
+     (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM, OR,
+     WHERE NO SUCH AMOUNTS HAVE BEEN PAID, ONE HUNDRED UNITED STATES DOLLARS
+     (USD 100).
+
+11.3 THE LIMITATIONS IN THIS SECTION 11 DO NOT APPLY TO THE EXTENT PROHIBITED
+     BY APPLICABLE LAW, AND DO NOT LIMIT LIABILITY FOR DEATH OR PERSONAL INJURY
+     CAUSED BY NEGLIGENCE, FRAUD, OR FRAUDULENT MISREPRESENTATION.
+
+11.4 THE LIMITATIONS AND EXCLUSIONS IN SECTIONS 10 AND 11 ARE AN ESSENTIAL
+     BASIS OF THE BARGAIN BETWEEN THE PARTIES AND APPLY EVEN IF ANY LIMITED
+     REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+12. EXPORT CONTROL AND SANCTIONS
+
+The Software contains and uses cryptographic functionality and is subject to
+the export control laws and regulations of the United States, including the
+Export Administration Regulations, and of other jurisdictions. Licensee shall
+comply with all such laws and shall not export, re-export, or make the Software
+available, directly or indirectly, to any embargoed or sanctioned country,
+region, entity, or individual, including any party on a restricted or denied
+persons list, or for any prohibited end use. Licensee is responsible for
+determining whether any import, use, or export authorization is required in its
+jurisdiction.
+
+
+13. U.S. GOVERNMENT END USERS
+
+The Software is "commercial computer software" and "commercial computer
+software documentation" as those terms are used in 48 C.F.R. 12.212 and
+48 C.F.R. 227.7202. Any use, duplication, or disclosure by or on behalf of the
+U.S. Government is subject solely to the terms of this Agreement.
+
+
+14. GOVERNING LAW AND VENUE
+
+This Agreement is governed by the laws of the State of Colorado, United States
+of America, without regard to its conflict-of-laws principles. The United
+Nations Convention on Contracts for the International Sale of Goods does not
+apply. The parties submit to the exclusive jurisdiction and venue of the state
+and federal courts located in Boulder County, Colorado, provided that IDmission
+may seek injunctive or other equitable relief in any court of competent
+jurisdiction to protect its intellectual property or confidential information.
+
+
+15. GENERAL
+
+15.1 This Agreement, together with the Commercial Agreement, constitutes the
+     entire agreement between the parties regarding the Software and supersedes
+     all prior or contemporaneous understandings on that subject. In the event
+     of a conflict between this Agreement and the Commercial Agreement, the
+     Commercial Agreement controls.
+
+15.2 Licensee may not assign or transfer this Agreement, by operation of law or
+     otherwise, without IDmission's prior written consent. Any attempted
+     assignment in violation of this Section is void.
+
+15.3 If any provision of this Agreement is held unenforceable, it shall be
+     modified to the minimum extent necessary to make it enforceable, and the
+     remaining provisions shall remain in full force and effect.
+
+15.4 No failure or delay by IDmission in exercising any right constitutes a
+     waiver of that right, and no waiver is effective unless in writing.
+
+15.5 IDmission may modify the terms applicable to future versions of the
+     Software. The version of this Agreement distributed with a given release
+     governs that release.
+
+15.6 The parties are independent contractors. Nothing in this Agreement creates
+     a partnership, joint venture, agency, or employment relationship.
+
+
+16. CONTACT
+
+IDmission, LLC
+8445 Baseline Road
+Boulder, CO 80303
+United States of America
+
+Licensing and sales:  sales@idmission.com
+Technical support:    support@idmission.com
+Privacy:              privacyteam@idmission.com
+Web:                  https://www.idmission.com
