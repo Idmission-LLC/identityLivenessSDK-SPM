@@ -2725,6 +2725,80 @@
           },
           {
             "kind": "Var",
+            "name": "modelDownloadPaddleOCRDetectionEvent",
+            "printedName": "modelDownloadPaddleOCRDetectionEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.EventName.Type) -> IDentityLivenessSDK.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "IDentityLivenessSDK.EventName",
+                    "usr": "s:19IDentityLivenessSDK9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "IDentityLivenessSDK.EventName",
+                        "usr": "s:19IDentityLivenessSDK9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK9EventNameO031modelDownloadPaddleOCRDetectionD0yA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK9EventNameO031modelDownloadPaddleOCRDetectionD0yA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "modelDownloadPaddleOCRRecognitionEvent",
+            "printedName": "modelDownloadPaddleOCRRecognitionEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDentityLivenessSDK.EventName.Type) -> IDentityLivenessSDK.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "IDentityLivenessSDK.EventName",
+                    "usr": "s:19IDentityLivenessSDK9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDentityLivenessSDK.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "IDentityLivenessSDK.EventName",
+                        "usr": "s:19IDentityLivenessSDK9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19IDentityLivenessSDK9EventNameO033modelDownloadPaddleOCRRecognitionD0yA2CmF",
+            "mangledName": "$s19IDentityLivenessSDK9EventNameO033modelDownloadPaddleOCRRecognitionD0yA2CmF",
+            "moduleName": "IDentityLivenessSDK"
+          },
+          {
+            "kind": "Var",
             "name": "selfieCaptureEvent",
             "printedName": "selfieCaptureEvent",
             "children": [
@@ -6540,9 +6614,120 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "nfcSignature",
+            "printedName": "nfcSignature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV03nfcD0SSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(signatureImage:signatureVideo:)",
+            "printedName": "init(signatureImage:signatureVideo:nfcSignature:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6579,11 +6764,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV14signatureImage0G5VideoACSSSg_AFtcfc",
-            "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV14signatureImage0G5VideoACSSSg_AFtcfc",
+            "usr": "s:19IDentityLivenessSDK20SignatureDataRequestV14signatureImage0G5Video03nfcD0ACSSSg_A2Gtcfc",
+            "mangledName": "$s19IDentityLivenessSDK20SignatureDataRequestV14signatureImage0G5Video03nfcD0ACSSSg_A2Gtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -15643,6 +15843,117 @@
           },
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -15977,7 +16288,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:fingerPrintData:voiceData:videoData:)",
+            "printedName": "init(selfie:nfcSelfie:fingerPrintData:voiceData:videoData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -15990,6 +16301,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -16038,8 +16364,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV6selfie011fingerPrintG005voiceG005videoG0ACSS_AA06FingerjG0VSgSSSgAKtcfc",
-            "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV6selfie011fingerPrintG005voiceG005videoG0ACSS_AA06FingerjG0VSgSSSgAKtcfc",
+            "usr": "s:19IDentityLivenessSDK26BiometricVerifyRequestDataV6selfie9nfcSelfie011fingerPrintG005voiceG005videoG0ACSS_SSSgAA06FingerlG0VSgA2Itcfc",
+            "mangledName": "$s19IDentityLivenessSDK26BiometricVerifyRequestDataV6selfie9nfcSelfie011fingerPrintG005voiceG005videoG0ACSS_SSSgAA06FingerlG0VSgA2Itcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -90823,6 +91149,117 @@
           },
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -90935,7 +91372,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:fingerPrintData:)",
+            "printedName": "init(selfie:nfcSelfie:fingerPrintData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -90948,6 +91385,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -90966,8 +91418,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV6selfie011fingerPrintG0ACSS_AA06FingerjG0VSgtcfc",
-            "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV6selfie011fingerPrintG0ACSS_AA06FingerjG0VSgtcfc",
+            "usr": "s:19IDentityLivenessSDK22BiometricLiveCheckDataV6selfie9nfcSelfie011fingerPrintG0ACSS_SSSgAA06FingerlG0VSgtcfc",
+            "mangledName": "$s19IDentityLivenessSDK22BiometricLiveCheckDataV6selfie9nfcSelfie011fingerPrintG0ACSS_SSSgAA06FingerlG0VSgtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -105627,6 +106079,117 @@
           },
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -106183,7 +106746,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
+            "printedName": "init(selfie:nfcSelfie:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -106196,6 +106759,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -106274,8 +106852,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV6selfie011fingerPrintF005voiceF005videoF00J9StartTime17expectedAudioTextACSS_AA06FingeriF0VSgSSSgAMSiSgAMtcfc",
-            "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV6selfie011fingerPrintF005voiceF005videoF00J9StartTime17expectedAudioTextACSS_AA06FingeriF0VSgSSSgAMSiSgAMtcfc",
+            "usr": "s:19IDentityLivenessSDK19BiometricEnrollDataV6selfie9nfcSelfie011fingerPrintF005voiceF005videoF00L9StartTime17expectedAudioTextACSS_SSSgAA06FingerkF0VSgA2KSiSgAKtcfc",
+            "mangledName": "$s19IDentityLivenessSDK19BiometricEnrollDataV6selfie9nfcSelfie011fingerPrintF005voiceF005videoF00L9StartTime17expectedAudioTextACSS_SSSgAA06FingerkF0VSgA2KSiSgAKtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -126065,6 +126643,117 @@
         "children": [
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -126621,13 +127310,28 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
+            "printedName": "init(nfcSelfie:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "BiometricDataValidateId",
                 "printedName": "IDentityLivenessSDK.BiometricDataValidateId",
                 "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -126706,8 +127410,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV011fingerPrintE005voiceE005videoE00J9StartTime17expectedAudioTextAcA06FingeriE0VSg_SSSgALSiSgALtcfc",
-            "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV011fingerPrintE005voiceE005videoE00J9StartTime17expectedAudioTextAcA06FingeriE0VSg_SSSgALSiSgALtcfc",
+            "usr": "s:19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfie011fingerPrintE005voiceE005videoE00L9StartTime17expectedAudioTextACSSSg_AA06FingerkE0VSgA2JSiSgAJtcfc",
+            "mangledName": "$s19IDentityLivenessSDK23BiometricDataValidateIdV9nfcSelfie011fingerPrintE005voiceE005videoE00L9StartTime17expectedAudioTextACSSSg_AA06FingerkE0VSgA2JSiSgAJtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -136199,6 +136903,117 @@
           },
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -136533,7 +137348,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:fingerPrintData:voiceData:videoData:)",
+            "printedName": "init(selfie:nfcSelfie:fingerPrintData:voiceData:videoData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -136546,6 +137361,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -136594,8 +137424,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV6selfie011fingerPrintF005voiceF005videoF0ACSS_AA06FingeriF0VSgSSSgAKtcfc",
-            "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV6selfie011fingerPrintF005voiceF005videoF0ACSS_AA06FingeriF0VSgSSSgAKtcfc",
+            "usr": "s:19IDentityLivenessSDK21BiometricIdentifyDataV6selfie9nfcSelfie011fingerPrintF005voiceF005videoF0ACSS_SSSgAA06FingerkF0VSgA2Itcfc",
+            "mangledName": "$s19IDentityLivenessSDK21BiometricIdentifyDataV6selfie9nfcSelfie011fingerPrintF005voiceF005videoF0ACSS_SSSgAA06FingerkF0VSgA2Itcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -137275,6 +138105,117 @@
                 "declKind": "Accessor",
                 "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV6selfieSSSgvM",
                 "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV6selfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV9nfcSelfieSSSgvM",
                 "moduleName": "IDentityLivenessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -138727,13 +139668,28 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:idImageFront:idImageBack:secondaryIdImageFront:secondaryIdImageBack:videoIdImageFront:videoIdImageBack:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:metadata:ocrMetadata:)",
+            "printedName": "init(selfie:nfcSelfie:idImageFront:idImageBack:secondaryIdImageFront:secondaryIdImageBack:videoIdImageFront:videoIdImageBack:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:metadata:ocrMetadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "GenericCustomerData",
                 "printedName": "IDentityLivenessSDK.GenericCustomerData",
                 "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -138947,8 +139903,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV6selfie12idImageFront0hI4Back011secondaryIdiJ00lmiK005videomiJ00nmiK0011fingerPrintF005voiceF00nF00Q9StartTime17expectedAudioText8metadata11ocrMetadataACSSSg_A6rA06FingerpF0VSgA2RSiSgArA0Y0VSgARtcfc",
-            "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV6selfie12idImageFront0hI4Back011secondaryIdiJ00lmiK005videomiJ00nmiK0011fingerPrintF005voiceF00nF00Q9StartTime17expectedAudioText8metadata11ocrMetadataACSSSg_A6rA06FingerpF0VSgA2RSiSgArA0Y0VSgARtcfc",
+            "usr": "s:19IDentityLivenessSDK19GenericCustomerDataV6selfie9nfcSelfie12idImageFront0jK4Back011secondaryIdkL00nokM005videookL00pokM0011fingerPrintF005voiceF00pF00S9StartTime17expectedAudioText8metadata11ocrMetadataACSSSg_A7sA06FingerrF0VSgA2SSiSgAsA8MetadataVSgAStcfc",
+            "mangledName": "$s19IDentityLivenessSDK19GenericCustomerDataV6selfie9nfcSelfie12idImageFront0jK4Back011secondaryIdkL00nokM005videookL00pokM0011fingerPrintF005voiceF00pF00S9StartTime17expectedAudioText8metadata11ocrMetadataACSSSg_A7sA06FingerrF0VSgA2SSiSgAsA8MetadataVSgAStcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -160420,6 +161376,117 @@
           },
           {
             "kind": "Var",
+            "name": "nfcSelfie",
+            "printedName": "nfcSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvp",
+            "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvp",
+            "moduleName": "IDentityLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvg",
+                "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvg",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvs",
+                "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvs",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvM",
+                "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV9nfcSelfieSSSgvM",
+                "moduleName": "IDentityLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fingerPrintData",
             "printedName": "fingerPrintData",
             "children": [
@@ -160976,7 +162043,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(selfie:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
+            "printedName": "init(selfie:nfcSelfie:fingerPrintData:voiceData:videoData:voiceStartTime:expectedAudioText:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -160989,6 +162056,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -161067,8 +162149,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV6selfie011fingerPrintI005voiceI005videoI00M9StartTime17expectedAudioTextACSS_AA06FingerlI0VSgSSSgAMSiSgAMtcfc",
-            "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV6selfie011fingerPrintI005voiceI005videoI00M9StartTime17expectedAudioTextACSS_AA06FingerlI0VSgSSSgAMSiSgAMtcfc",
+            "usr": "s:19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV6selfie9nfcSelfie011fingerPrintI005voiceI005videoI00O9StartTime17expectedAudioTextACSS_SSSgAA06FingernI0VSgA2KSiSgAKtcfc",
+            "mangledName": "$s19IDentityLivenessSDK32BiometricValidateIdFaceMatchDataV6selfie9nfcSelfie011fingerPrintI005voiceI005videoI00O9StartTime17expectedAudioTextACSS_SSSgAA06FingernI0VSgA2KSiSgAKtcfc",
             "moduleName": "IDentityLivenessSDK",
             "declAttributes": [
               "AccessControl",
@@ -215219,175 +216301,189 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1334,
+      "length": 38,
+      "value": "\"modelDownloadPaddleOCRDetectionEvent\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1423,
+      "length": 40,
+      "value": "\"modelDownloadPaddleOCRRecognitionEvent\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1531,
       "length": 15,
       "value": "\"SelfieCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1573,
       "length": 11,
       "value": "\"IDCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1620,
       "length": 20,
       "value": "\"IDtoSelfieMatching\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1692,
       "length": 15,
       "value": "\"LiveFaceCheck\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1559,
+      "offset": 1737,
       "length": 14,
       "value": "\"IdValidation\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1615,
+      "offset": 1793,
       "length": 26,
       "value": "\"IdValidationAndMatchFace\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1866,
       "length": 31,
       "value": "\"IdValidationAndCustomerEnroll\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 1939,
       "length": 26,
       "value": "\"CustomerEnrollBiometrics\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 2003,
       "length": 22,
       "value": "\"CustomerVerification\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1881,
+      "offset": 2059,
       "length": 18,
       "value": "\"IdentifyCustomer\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2130,
       "length": 13,
       "value": "\"FinalSubmit\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2602,
+      "offset": 2780,
       "length": 18,
       "value": "\"SignatureCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2653,
+      "offset": 2831,
       "length": 17,
       "value": "\"DocumentCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2700,
+      "offset": 2878,
       "length": 14,
       "value": "\"VoiceCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2750,
+      "offset": 2928,
       "length": 20,
       "value": "\"FingerPrintCapture\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 3017,
       "length": 11,
       "value": "\"Initiated\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2873,
+      "offset": 3051,
       "length": 12,
       "value": "\"InProgress\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 3082,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2932,
+      "offset": 3110,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2961,
+      "offset": 3139,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 3170,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3022,
+      "offset": 3200,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3226,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3677,
+      "offset": 3855,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Libraries\/Analytics\/IDMAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3682,
+      "offset": 3860,
       "length": 2,
       "value": "\"\""
     },
@@ -216262,91 +217358,91 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4802,
+      "offset": 5663,
       "length": 43,
       "value": "\"faceFullRangeSparseTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 6103,
       "length": 45,
       "value": "\"faceLandmarksDetectorTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5694,
+      "offset": 6555,
       "length": 47,
       "value": "\"faceBlendshapesDetectorTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6142,
+      "offset": 7003,
       "length": 35,
       "value": "\"passiveFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6524,
+      "offset": 7385,
       "length": 33,
       "value": "\"focusFaceTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6895,
+      "offset": 7756,
       "length": 32,
       "value": "\"faceMaskTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7276,
+      "offset": 8137,
       "length": 33,
       "value": "\"idCaptureTrainingModelPublicKey\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9302,
+      "offset": 11050,
       "length": 38,
       "value": "\"faceFullRangeSparseTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9712,
+      "offset": 11460,
       "length": 40,
       "value": "\"faceLandmarksDetectorTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10134,
+      "offset": 11882,
       "length": 42,
       "value": "\"faceBlendshapesDetectorTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10554,
+      "offset": 12302,
       "length": 30,
       "value": "\"passiveFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10912,
+      "offset": 12660,
       "length": 28,
       "value": "\"focusFaceTrainingModelName\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/UserDefaults\/UserDefaults+IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 11259,
+      "offset": 13007,
       "length": 27,
       "value": "\"faceMaskTrainingModelName\""
     },
@@ -217275,6 +218371,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/GTEManager.swift",
+      "kind": "Array",
+      "offset": 834,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/GTE\/GTEManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 973,
+      "length": 3,
+      "value": "120"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Codable\/Request\/Metadata.swift",
       "kind": "StringLiteral",
       "offset": 6760,
@@ -217459,7 +218569,7 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 1942,
       "length": 5,
       "value": "false"
     },
@@ -217468,7 +218578,7 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 35,
-      "value": "\"UNIQUE_KEY_ID_7043_20260623023319\""
+      "value": "\"UNIQUE_KEY_ID_3382_20261007054257\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
@@ -217550,49 +218660,63 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1279,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
       "length": 41,
       "value": "\"face_detection_full_range_sparse.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1405,
+      "offset": 1549,
       "length": 32,
       "value": "\"face_landmarks_detector.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1647,
       "length": 25,
       "value": "\"face_blendshapes.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1582,
+      "offset": 1726,
       "length": 51,
-      "value": "\"liveness-mobile-production_2026-06-21_V110.tflite\""
+      "value": "\"liveness-mobile-production_2026-09-22_V130.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1829,
       "length": 40,
       "value": "\"facedetect-focus_2024-09-23_V12.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1920,
       "length": 42,
       "value": "\"facemask-production_2025-02-26_V9.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2171,
       "length": 70,
       "value": "\"docdetect-realness-two-input-mobile-production_2026-06-10_V77.tflite\""
     },
@@ -217808,15 +218932,22 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 3948,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 18092,
+      "offset": 18489,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/MediaPipeFaceDetection\/MediaPipeFaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 23659,
+      "offset": 24056,
       "length": 4,
       "value": "true"
     },
@@ -218915,77 +220046,77 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2574,
+      "offset": 2742,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2789,
       "length": 152,
       "value": "\"10,20,25,30,50,55,60,65,70,75,77,78,80,100,105,155,160,165,175,180,185,186,190,191,200,300,305,310,320,330,360,361,400,401,410,500,505,510,515,620,660\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
+      "offset": 2966,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "Array",
-      "offset": 3099,
+      "offset": 3267,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 3222,
+      "offset": 3390,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5101,
+      "offset": 5269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5171,
+      "offset": 5339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5241,
+      "offset": 5409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 6794,
+      "offset": 6962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 6858,
+      "offset": 7026,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/IDentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 25598,
+      "offset": 26222,
       "length": 2,
       "value": "\"\""
     },

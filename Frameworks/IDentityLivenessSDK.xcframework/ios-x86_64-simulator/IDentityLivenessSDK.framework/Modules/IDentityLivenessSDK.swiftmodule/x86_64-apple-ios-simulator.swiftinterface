@@ -106,6 +106,8 @@ public enum EventName : Swift.String, Swift.Codable {
   case modelDownloadIdFocusEvent
   case modelDownloadClassificationEvent
   case modelDownloadFingerPrintEvent
+  case modelDownloadPaddleOCRDetectionEvent
+  case modelDownloadPaddleOCRRecognitionEvent
   case selfieCaptureEvent
   case idCaptureEvent
   case idToSelfieMatchingEvent
@@ -185,8 +187,9 @@ public struct IdDataVerifyRequest : Swift.Encodable {
 public struct SignatureDataRequest : Swift.Codable {
   public var signatureImage: Swift.String?
   public var signatureVideo: Swift.String?
+  public var nfcSignature: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil)
+  public init(signatureImage: Swift.String? = nil, signatureVideo: Swift.String? = nil, nfcSignature: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -462,11 +465,12 @@ extension Swift.Dictionary {
 }
 public struct BiometricVerifyRequestData : Swift.Encodable {
   public var selfie: Swift.String
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
+  public init(selfie: Swift.String, nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -1954,9 +1958,10 @@ public struct CustomerEnrollBiometricDataRequest : Swift.Encodable {
 }
 public struct BiometricLiveCheckData : Swift.Encodable {
   public var selfie: Swift.String
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil)
+  public init(selfie: Swift.String, nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -2345,13 +2350,14 @@ public struct XsltData : Swift.Codable {
 }
 public struct BiometricEnrollData : Swift.Encodable {
   public var selfie: Swift.String
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  public init(selfie: Swift.String, nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -2637,13 +2643,14 @@ public struct CustomerLiveCheckDataRequest : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct BiometricDataValidateId : Swift.Encodable {
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  public init(nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -2756,11 +2763,12 @@ public struct DeDuplicationResponseData : Swift.Codable {
 }
 public struct BiometricIdentifyData : Swift.Encodable {
   public var selfie: Swift.String
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
+  public init(selfie: Swift.String, nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -2775,6 +2783,7 @@ public struct GenericDataRequest : Swift.Encodable {
 }
 public struct GenericCustomerData : Swift.Encodable {
   public var selfie: Swift.String?
+  public var nfcSelfie: Swift.String?
   public var idImageFront: Swift.String?
   public var idImageBack: Swift.String?
   public var secondaryIdImageFront: Swift.String?
@@ -2789,7 +2798,7 @@ public struct GenericCustomerData : Swift.Encodable {
   public var metadata: IDentityLivenessSDK.Metadata?
   public var ocrMetadata: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, secondaryIdImageFront: Swift.String? = nil, secondaryIdImageBack: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil, metadata: IDentityLivenessSDK.Metadata? = nil, ocrMetadata: Swift.String? = nil)
+  public init(selfie: Swift.String? = nil, nfcSelfie: Swift.String? = nil, idImageFront: Swift.String? = nil, idImageBack: Swift.String? = nil, secondaryIdImageFront: Swift.String? = nil, secondaryIdImageBack: Swift.String? = nil, videoIdImageFront: Swift.String? = nil, videoIdImageBack: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil, metadata: IDentityLivenessSDK.Metadata? = nil, ocrMetadata: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -3245,13 +3254,14 @@ extension IDentityLivenessSDK.IDentitySDK {
 }
 public struct BiometricValidateIdFaceMatchData : Swift.Encodable {
   public var selfie: Swift.String
+  public var nfcSelfie: Swift.String?
   public var fingerPrintData: IDentityLivenessSDK.FingerPrintData?
   public var voiceData: Swift.String?
   public var videoData: Swift.String?
   public var voiceStartTime: Swift.Int?
   public var expectedAudioText: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(selfie: Swift.String, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
+  public init(selfie: Swift.String, nfcSelfie: Swift.String? = nil, fingerPrintData: IDentityLivenessSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil, voiceStartTime: Swift.Int? = nil, expectedAudioText: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }

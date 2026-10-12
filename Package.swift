@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "IDentityLivenessSDK",
     platforms: [
-        .iOS(.v15)
+        .iOS("15.6")
     ],
     products: [
         .library(name: "IDentityLivenessSDK", targets: ["IDentityLivenessSDKTarget"]),

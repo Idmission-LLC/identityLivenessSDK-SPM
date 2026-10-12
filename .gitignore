@@ -11,6 +11,3 @@ DerivedData/
 
 # Uncomment the next line if you want to ignore the lock file
 # Package.resolved
-
-# Release file
-GitHub_Release.sh
