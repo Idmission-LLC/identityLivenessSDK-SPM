@@ -132,16 +132,16 @@ publishes newer versions.
 
    | To install | Dependency Rule | Version |
    |:---|:---|:---|
-   | **Current production release** (recommended) | Up to Next Major Version | `11.1.13` |
-   | **Pre-release** (release candidate, for testing) | Exact Version | The pre-release tag, e.g. `11.1.19-rc.1` |
+   | **Current production release** (recommended) | Up to Next Major Version | `11.1.19` |
+   | **Pre-release** (release candidate, for testing) | Exact Version | The pre-release tag, e.g. `X.Y.Z-rc.n` |
 
 4. Click **Add Package**, then tick the products you need. `IDentityLivenessSDK` is mandatory.
 
 > [!NOTE]
-> Pre-release tags have the form `MAJOR.MINOR.PATCH-rc.N` — for example `11.1.19-rc.1`, `11.1.19-rc.2`.
+> Pre-release tags have the form `X.Y.Z-rc.n`, where `n` counts up from 1 for each release candidate.
 > Swift Package Manager never resolves a pre-release from a version range, so **Up to Next Major Version**
 > keeps you on production releases. To try a pre-release, pin its exact tag, and switch back to the
-> production rule once the final version (for example `11.1.19`) is published. Do not ship pre-releases in
+> production rule once the final `X.Y.Z` version is published. Do not ship pre-releases in
 > production apps.
 
 ### Package.swift
@@ -158,7 +158,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Idmission-LLC/identityLivenessSDK-SPM",
-            from: "11.1.13"        // 11.1.13 up to, but not including, 12.0.0
+            from: "11.1.19"        // 11.1.19 up to, but not including, 12.0.0
         )
     ],
     targets: [
@@ -180,7 +180,7 @@ To install a **pre-release**, pin the dependency to its exact tag instead:
 dependencies: [
     .package(
         url: "https://github.com/Idmission-LLC/identityLivenessSDK-SPM",
-        exact: "11.1.19-rc.1"
+        exact: "X.Y.Z-rc.n"      // replace with the pre-release tag
     )
 ],
 ```
@@ -616,38 +616,44 @@ transaction end to end.
 
 ## Framework sizes
 
-Measured at **11.1.13**. Uncompressed on-disk size of the `arm64` device slice. **Not** App Store download size — thinning and
+Measured at **11.1.19**. Uncompressed on-disk size of the `arm64` device slice. **Not** App Store download size — thinning and
 compression reduce the delivered figure substantially.
 
 | Framework | Size | Included with |
 |:---|---:|:---|
-| `IDentityLivenessSDK` | 15.5 MB | `IDentityLivenessSDK` |
+| `IDentityLivenessSDK` | 16.3 MB | `IDentityLivenessSDK` |
 | `SelfieCaptureLiveness` | 1.2 MB | `IDentityLivenessSDK` |
 | `IDentityLivenessModels` | 11.5 MB | `IDentityLivenessModels` (optional) |
 
-Required products total **16.7 MB**. Omit `IDentityLivenessModels` to save 11.5 MB of app binary at the cost
+Required products total **17.5 MB**. Omit `IDentityLivenessModels` to save 11.5 MB of app binary at the cost
 of a model download on first run.
 
 ---
 
 ## Versioning and releases
 
-Releases are published as Git tags of the form `MAJOR.MINOR.PATCH` — for example `11.1.13`. Pin with
-`from: "11.1.13"` to accept compatible updates, or pin `exact: "11.1.13"` if your release process requires a
+Releases are published as Git tags of the form `MAJOR.MINOR.PATCH` — for example `11.1.19`. Pin with
+`from: "11.1.19"` to accept compatible updates, or pin `exact: "11.1.19"` if your release process requires a
 frozen dependency graph.
 
-Pre-releases are published as `MAJOR.MINOR.PATCH-rc.N` tags — for example `11.1.19-rc.1` — ahead of the
-matching production release. They are only resolved when pinned exactly; see [Installation](#installation).
+Pre-releases are published as `X.Y.Z-rc.n` tags ahead of the matching `X.Y.Z` production release.
+Each new release candidate increments `n`. They are only resolved when pinned exactly; see [Installation](#installation).
 
 The three IDmission SPM packages are versioned in lockstep. If you integrate more than one, use the same
 version across all of them.
 
 ### Release notes
 
-#### 11.1.13
-- Added customizable properties.
-- Reduced overall SDK package size.
-- Introduced a timeout timer for capture to improve user flow and prevent indefinite waiting.
+#### 11.1.19 (22 October 2026)
+- Version aligned with the 11.1.19 release of the Lite and Medium SDKs.
+
+#### 11.1.13 (23 July 2026)
+- Added a maximum retry limit for selfie capture.
+- Added a conditional selfie success preview screen.
+- Added support for mandatory geolocation enforcement.
+- Added model availability checks before launching Selfie Capture workflows. Users are now presented with clear error messages if the required models have not been downloaded.
+- Added support for Swift Package Manager (SPM), enabling seamless integration of LiteSDK and LivenessSDK.
+- Updated the SDK initialization endpoint.
 
 ---
 
