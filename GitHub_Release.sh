@@ -1,4 +1,6 @@
 #!/bin/sh
+# Commit Package.swift and tag the SPM release, after the pod repo's ./GitHub_LivenessSDK_Release.sh
+# pointed Package.swift at the liveness-<SDK_VERSION> zips.
 
 # Fail immediately on error
 set -e
@@ -10,9 +12,26 @@ if [ -z "$1" ]; then
 fi
 
 SDK_VERSION=$1
-TAG_VERSION=${2:-$SDK_VERSION}   # defaults to SDK_VERSION if not given
+# SwiftPM only sees semantic-version tags, so this defaults to the SDK version's first three numbers (11.1.19.2.5 → 11.1.19)
+TAG_VERSION=${2:-$(echo "$SDK_VERSION" | cut -d. -f1-3)}
+if ! echo "$TAG_VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$'; then
+  echo "❌ '$TAG_VERSION' isn't a semantic version (like 11.1.20 or 11.1.20-rc.1)."
+  exit 1
+fi
 
 cd "$(dirname "$0")"   # go to identitymediumsdk2.0/
+
+if [ "$(git branch --show-current)" != main ]; then
+  echo "❌ LivenessSDK: Check out main first."
+  exit 1
+fi
+
+# Every binary target must download this SDK version's zips
+if grep 'binaryTarget' Package.swift | grep -v -F -- "-${SDK_VERSION}/"; then
+  echo "❌ LivenessSDK: These binary targets aren't on SDK ${SDK_VERSION}: run the pod repo's GitHub_LivenessSDK_Release.sh first."
+  exit 1
+fi
+git fetch -q --tags origin
 
 # # Check if branch is clean
 # if [ -n "$(git status --porcelain)" ]; then
