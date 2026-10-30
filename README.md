@@ -197,6 +197,11 @@ git@github.com:Idmission-LLC/identityLivenessSDK-SPM.git
 
 For CI, provide a deploy key or a personal access token with `repo` read scope.
 
+The SDK binaries are not in this repository. Swift Package Manager downloads them from the public
+[ios-sdk-releases](https://github.com/Idmission-LLC/ios-sdk-releases/releases) GitHub releases and checks each
+one against the checksum in `Package.swift`, so your build machines need HTTPS access to `github.com` and
+`release-assets.githubusercontent.com`.
+
 ---
 
 ## Project configuration

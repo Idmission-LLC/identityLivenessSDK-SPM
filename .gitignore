@@ -11,3 +11,8 @@ DerivedData/
 
 # Uncomment the next line if you want to ignore the lock file
 # Package.resolved
+
+# Binaries are GitHub release assets in Idmission-LLC/ios-sdk-releases (Package.swift has their url + checksum), never committed
+Frameworks/
+*.xcframework/
+.build/
